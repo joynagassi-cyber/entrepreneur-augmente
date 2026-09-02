@@ -1,3 +1,4 @@
 tools/BACKUP-*.docx
 tools/*.json
 tools/__pycache__/
+tools/sample_*.png
