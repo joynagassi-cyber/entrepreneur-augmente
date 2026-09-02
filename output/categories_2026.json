@@ -1,0 +1,728 @@
+{
+  "version": "2026.0",
+  "generated": "2026-09-02",
+  "categories": [
+    {
+      "id": "ai",
+      "name_en": "AI & Machine Learning",
+      "name_fr": "IA & Apprentissage automatique",
+      "parent": null,
+      "type": "ai",
+      "description_en": "Models, platforms and tooling for building, running and using artificial intelligence and machine-learning systems.",
+      "description_fr": "Modèles, plateformes et outils pour construire, exécuter et utiliser des systèmes d'intelligence artificielle et d'apprentissage automatique.",
+      "objectives": [
+        "build-ai",
+        "run-llm",
+        "agent-automation",
+        "prototype-fast"
+      ],
+      "tools": []
+    },
+    {
+      "id": "ai-agents",
+      "name_en": "AI Agents & Assistants",
+      "name_fr": "Agents & assistants IA",
+      "parent": "ai",
+      "type": "ai",
+      "description_en": "Autonomous agents and assistants that plan, act and complete tasks on a user's behalf.",
+      "description_fr": "Agents et assistants autonomes qui planifient, agissent et accomplissent des tâches pour le compte de l'utilisateur.",
+      "objectives": [
+        "agent-automation",
+        "run-llm"
+      ],
+      "tools": []
+    },
+    {
+      "id": "ai-coding",
+      "name_en": "AI Coding & Development",
+      "name_fr": "Codage & développement assistés par IA",
+      "parent": "ai",
+      "type": "ai",
+      "description_en": "AI coding agents, assistants and app builders for software development.",
+      "description_fr": "Agents de codage IA, assistants et constructeurs d'applications pour le développement logiciel.",
+      "objectives": [
+        "build-ai",
+        "build-app",
+        "prototype-fast",
+        "developer-control"
+      ],
+      "tools": []
+    },
+    {
+      "id": "ai-models",
+      "name_en": "AI Models & Open Weights",
+      "name_fr": "Modèles IA & poids ouverts",
+      "parent": "ai",
+      "type": "ai",
+      "description_en": "Foundation models, open-weight models, and the frameworks used to run them. Distinguishes open source, open weights, and proprietary.",
+      "description_fr": "Modèles de fondation, modèles à poids ouverts et frameworks utilisés pour les exécuter. Distingue open source, poids ouverts et propriétaire.",
+      "objectives": [
+        "run-llm",
+        "build-ai"
+      ],
+      "tools": []
+    },
+    {
+      "id": "ai-ml-infra",
+      "name_en": "ML Infrastructure & Serving",
+      "name_fr": "Infrastructure ML & service de modèles",
+      "parent": "ai",
+      "type": "ai",
+      "description_en": "Serving, orchestration, vector search and evaluation infrastructure for ML systems.",
+      "description_fr": "Infrastructure de service, d'orchestration, de recherche vectorielle et d'évaluation pour les systèmes de ML.",
+      "objectives": [
+        "build-ai",
+        "deploy-quickly"
+      ],
+      "tools": []
+    },
+    {
+      "id": "dev",
+      "name_en": "Software Development",
+      "name_fr": "Développement logiciel",
+      "parent": null,
+      "type": "dev",
+      "description_en": "IDEs, editors, frameworks, version control, CI/CD, testing and API tooling.",
+      "description_fr": "IDE, éditeurs, frameworks, contrôle de version, CI/CD, tests et outils d'API.",
+      "objectives": [
+        "build-app",
+        "developer-control",
+        "build-saas"
+      ],
+      "tools": []
+    },
+    {
+      "id": "dev-ide",
+      "name_en": "IDEs & Code Editors",
+      "name_fr": "IDE & éditeurs de code",
+      "parent": "dev",
+      "type": "dev",
+      "description_en": "Integrated development environments and code editors.",
+      "description_fr": "Environnements de développement intégrés et éditeurs de code.",
+      "objectives": [
+        "developer-control"
+      ],
+      "tools": []
+    },
+    {
+      "id": "dev-frameworks",
+      "name_en": "Frameworks & Platforms",
+      "name_fr": "Frameworks & plateformes",
+      "parent": "dev",
+      "type": "dev",
+      "description_en": "Web and application frameworks, no-code/low-code platforms and PaaS.",
+      "description_fr": "Frameworks web et d'application, plateformes no-code/low-code et PaaS.",
+      "objectives": [
+        "build-app",
+        "build-saas",
+        "prototype-fast"
+      ],
+      "tools": []
+    },
+    {
+      "id": "dev-backend",
+      "name_en": "Backend & Databases",
+      "name_fr": "Backend & bases de données",
+      "parent": "dev",
+      "type": "dev",
+      "description_en": "Databases, ORMs, APIs, backend services and infrastructure for applications.",
+      "description_fr": "Bases de données, ORM, API, services backend et infrastructure applicative.",
+      "objectives": [
+        "build-app",
+        "build-saas",
+        "developer-control"
+      ],
+      "tools": []
+    },
+    {
+      "id": "dev-devops",
+      "name_en": "DevOps & Deployment",
+      "name_fr": "DevOps & déploiement",
+      "parent": "dev",
+      "type": "dev",
+      "description_en": "CI/CD, containers, hosting, deployment and infrastructure as code.",
+      "description_fr": "CI/CD, conteneurs, hébergement, déploiement et infrastructure as code.",
+      "objectives": [
+        "deploy-quickly",
+        "self-host",
+        "build-saas"
+      ],
+      "tools": []
+    },
+    {
+      "id": "dev-test",
+      "name_en": "Testing & QA",
+      "name_fr": "Tests & assurance qualité",
+      "parent": "dev",
+      "type": "dev",
+      "description_en": "Testing frameworks, test automation and quality assurance tooling.",
+      "description_fr": "Frameworks de test, automatisation des tests et outils d'assurance qualité.",
+      "objectives": [
+        "developer-control",
+        "build-app"
+      ],
+      "tools": []
+    },
+    {
+      "id": "dev-mobile",
+      "name_en": "Mobile Development",
+      "name_fr": "Développement mobile",
+      "parent": "dev",
+      "type": "dev",
+      "description_en": "Cross-platform and native mobile build tooling and workflows.",
+      "description_fr": "Outils et workflows de construction mobile cross-platform et natifs.",
+      "objectives": [
+        "build-mobile",
+        "test-on-device",
+        "build-app"
+      ],
+      "tools": []
+    },
+    {
+      "id": "design",
+      "name_en": "Design & Creative",
+      "name_fr": "Design & création",
+      "parent": null,
+      "type": "creative",
+      "description_en": "UI/UX design, prototyping, graphics, image, video and audio tools.",
+      "description_fr": "Design UI/UX, prototypage, graphisme, outils image, vidéo et audio.",
+      "objectives": [
+        "create-content",
+        "prototype-fast"
+      ],
+      "tools": []
+    },
+    {
+      "id": "design-uiux",
+      "name_en": "UI/UX & Prototyping",
+      "name_fr": "UI/UX & prototypage",
+      "parent": "design",
+      "type": "creative",
+      "description_en": "Interface design and interactive prototyping tools.",
+      "description_fr": "Outils de conception d'interface et de prototypage interactif.",
+      "objectives": [
+        "prototype-fast",
+        "create-content"
+      ],
+      "tools": []
+    },
+    {
+      "id": "design-video",
+      "name_en": "Video & Audio",
+      "name_fr": "Vidéo & audio",
+      "parent": "design",
+      "type": "creative",
+      "description_en": "Video editing, screen recording, audio and media tools.",
+      "description_fr": "Outils de montage vidéo, d'enregistrement d'écran, d'audio et de médias.",
+      "objectives": [
+        "create-content"
+      ],
+      "tools": []
+    },
+    {
+      "id": "design-image",
+      "name_en": "Image Generation & Editing",
+      "name_fr": "Génération & édition d'images",
+      "parent": "design",
+      "type": "creative",
+      "description_en": "Raster/vector graphics and generative image tools.",
+      "description_fr": "Outils graphiques raster/vectoriels et outils d'images génératives.",
+      "objectives": [
+        "create-content"
+      ],
+      "tools": []
+    },
+    {
+      "id": "productivity",
+      "name_en": "Productivity & Utilities",
+      "name_fr": "Productivité & utilitaires",
+      "parent": null,
+      "type": "business",
+      "description_en": "Notes, tasks, documents, automation, personal and team productivity.",
+      "description_fr": "Notes, tâches, documents, automatisation, productivité personnelle et d'équipe.",
+      "objectives": [
+        "organize",
+        "automate",
+        "prototype-fast"
+      ],
+      "tools": []
+    },
+    {
+      "id": "prod-notes",
+      "name_en": "Note-taking & Knowledge",
+      "name_fr": "Prise de notes & connaissance",
+      "parent": "productivity",
+      "type": "business",
+      "description_en": "Note-taking apps, knowledge bases, wikis and PKM tools.",
+      "description_fr": "Applications de prise de notes, bases de connaissances, wikis et outils PKM.",
+      "objectives": [
+        "organize"
+      ],
+      "tools": []
+    },
+    {
+      "id": "prod-automation",
+      "name_en": "Automation",
+      "name_fr": "Automatisation",
+      "parent": "productivity",
+      "type": "business",
+      "description_en": "Workflow automation and no-code integration platforms.",
+      "description_fr": "Automatisation de workflows et plateformes d'intégration no-code.",
+      "objectives": [
+        "automate",
+        "prototype-fast"
+      ],
+      "tools": []
+    },
+    {
+      "id": "prod-docs",
+      "name_en": "Docs & Collaboration",
+      "name_fr": "Documents & collaboration",
+      "parent": "productivity",
+      "type": "business",
+      "description_en": "Document editing, collaboration, whiteboards and communication.",
+      "description_fr": "Édition de documents, collaboration, tableaux blancs et communication.",
+      "objectives": [
+        "organize",
+        "collaborate"
+      ],
+      "tools": []
+    },
+    {
+      "id": "prod-email",
+      "name_en": "Email & Communication",
+      "name_fr": "E-mail & communication",
+      "parent": "productivity",
+      "type": "business",
+      "description_en": "Email clients, team chat and messaging platforms.",
+      "description_fr": "Clients e-mail, messagerie d'équipe et plateformes de messagerie.",
+      "objectives": [
+        "collaborate"
+      ],
+      "tools": []
+    },
+    {
+      "id": "business",
+      "name_en": "Business Software",
+      "name_fr": "Logiciels d'entreprise",
+      "parent": null,
+      "type": "business",
+      "description_en": "CRM, ERP, finance, HR, project management, marketing and enterprise software.",
+      "description_fr": "CRM, ERP, finance, RH, gestion de projet, marketing et logiciels d'entreprise.",
+      "objectives": [
+        "run-business",
+        "collaborate"
+      ],
+      "tools": []
+    },
+    {
+      "id": "biz-crm",
+      "name_en": "CRM & Sales",
+      "name_fr": "CRM & vente",
+      "parent": "business",
+      "type": "business",
+      "description_en": "Customer relationship management and sales tooling.",
+      "description_fr": "Gestion de la relation client et outils de vente.",
+      "objectives": [
+        "run-business",
+        "collaborate"
+      ],
+      "tools": []
+    },
+    {
+      "id": "biz-pm",
+      "name_en": "Project & Task Management",
+      "name_fr": "Gestion de projet & tâches",
+      "parent": "business",
+      "type": "business",
+      "description_en": "Project management, task tracking and team planning.",
+      "description_fr": "Gestion de projet, suivi des tâches et planification d'équipe.",
+      "objectives": [
+        "run-business",
+        "organize",
+        "collaborate"
+      ],
+      "tools": []
+    },
+    {
+      "id": "biz-finance",
+      "name_en": "Finance & Accounting",
+      "name_fr": "Finance & comptabilité",
+      "parent": "business",
+      "type": "business",
+      "description_en": "Accounting, invoicing, payroll and financial management.",
+      "description_fr": "Comptabilité, facturation, paie et gestion financière.",
+      "objectives": [
+        "run-business"
+      ],
+      "tools": []
+    },
+    {
+      "id": "biz-marketing",
+      "name_en": "Marketing & Engagement",
+      "name_fr": "Marketing & engagement",
+      "parent": "business",
+      "type": "business",
+      "description_en": "Marketing automation, email marketing, SEO and social management.",
+      "description_fr": "Automatisation marketing, e-mailing, SEO et gestion des réseaux sociaux.",
+      "objectives": [
+        "run-business",
+        "marketing"
+      ],
+      "tools": []
+    },
+    {
+      "id": "data",
+      "name_en": "Data & Analytics",
+      "name_fr": "Données & analytique",
+      "parent": null,
+      "type": "dev",
+      "description_en": "Analytics, BI, data engineering, warehousing and web scraping.",
+      "description_fr": "Analytique, BI, ingénierie des données, entreposage et scraping web.",
+      "objectives": [
+        "analyze-data",
+        "build-app"
+      ],
+      "tools": []
+    },
+    {
+      "id": "data-bi",
+      "name_en": "BI & Analytics",
+      "name_fr": "BI & analytique",
+      "parent": "data",
+      "type": "dev",
+      "description_en": "Business intelligence, dashboards and product analytics.",
+      "description_fr": "Business intelligence, tableaux de bord et analytique produit.",
+      "objectives": [
+        "analyze-data"
+      ],
+      "tools": []
+    },
+    {
+      "id": "data-etl",
+      "name_en": "Data Engineering & Warehousing",
+      "name_fr": "Ingénierie & entreposage de données",
+      "parent": "data",
+      "type": "dev",
+      "description_en": "ETL, ingestion, warehousing and streaming data platforms.",
+      "description_fr": "ETL, ingestion, entreposage et plateformes de données en streaming.",
+      "objectives": [
+        "analyze-data",
+        "build-app"
+      ],
+      "tools": []
+    },
+    {
+      "id": "data-scraping",
+      "name_en": "Web Scraping & Crawlers",
+      "name_fr": "Scraping web & robots d'indexation",
+      "parent": "data",
+      "type": "dev",
+      "description_en": "Web scraping libraries, platforms and SDKs.",
+      "description_fr": "Bibliothèques, plateformes et SDK de scraping web.",
+      "objectives": [
+        "analyze-data",
+        "build-app"
+      ],
+      "tools": []
+    },
+    {
+      "id": "infra",
+      "name_en": "Infrastructure & Operations",
+      "name_fr": "Infrastructure & opérations",
+      "parent": null,
+      "type": "dev",
+      "description_en": "Databases, networking, orchestration, observability, storage and security.",
+      "description_fr": "Bases de données, réseau, orchestration, observabilité, stockage et sécurité.",
+      "objectives": [
+        "self-host",
+        "deploy-quickly",
+        "run-business"
+      ],
+      "tools": []
+    },
+    {
+      "id": "infra-monitoring",
+      "name_en": "Monitoring & Observability",
+      "name_fr": "Supervision & observabilité",
+      "parent": "infra",
+      "type": "dev",
+      "description_en": "Monitoring, logging, tracing and alerting.",
+      "description_fr": "Supervision, journalisation, traçage et alertes.",
+      "objectives": [
+        "self-host",
+        "run-business"
+      ],
+      "tools": []
+    },
+    {
+      "id": "infra-storage",
+      "name_en": "Databases & Storage",
+      "name_fr": "Bases de données & stockage",
+      "parent": "infra",
+      "type": "dev",
+      "description_en": "Relational, NoSQL, vector and object-storage systems.",
+      "description_fr": "Systèmes relationnels, NoSQL, vectoriels et stockage objet.",
+      "objectives": [
+        "self-host",
+        "build-app",
+        "build-saas"
+      ],
+      "tools": []
+    },
+    {
+      "id": "infra-security",
+      "name_en": "Cybersecurity & Privacy",
+      "name_fr": "Cybersécurité & confidentialité",
+      "parent": "infra",
+      "type": "dev",
+      "description_en": "Identity, secrets, network security, privacy and encryption tools.",
+      "description_fr": "Identité, secrets, sécurité réseau, confidentialité et chiffrement.",
+      "objectives": [
+        "self-host",
+        "secure"
+      ],
+      "tools": []
+    },
+    {
+      "id": "selfhost",
+      "name_en": "Open Source & Self-hosted",
+      "name_fr": "Open source & auto-hébergement",
+      "parent": null,
+      "type": "open",
+      "description_en": "Open-source, self-hosted and privacy-first software and platforms.",
+      "description_fr": "Logiciels open source, auto-hébergés et axés sur la confidentialité.",
+      "objectives": [
+        "self-host",
+        "open-source",
+        "avoid-setup",
+        "secure"
+      ],
+      "tools": []
+    },
+    {
+      "id": "selfhost-mobile",
+      "name_en": "Open-source Mobile Apps",
+      "name_fr": "Applications mobiles open source",
+      "parent": "selfhost",
+      "type": "open",
+      "description_en": "Open-source Android/iOS applications, including the F-Droid ecosystem.",
+      "description_fr": "Applications Android/iOS open source, y compris l'écosystème F-Droid.",
+      "objectives": [
+        "open-source",
+        "build-mobile",
+        "secure"
+      ],
+      "tools": []
+    },
+    {
+      "id": "ai-machine-learning",
+      "name_en": "AI/ML Foundations",
+      "name_fr": "Fondamentaux IA/ML",
+      "parent": "ai",
+      "type": "ai",
+      "description_en": "Core machine-learning libraries, training tooling and model runtimes that underpin AI applications.",
+      "description_fr": "Bibliothèques d'apprentissage automatique, outils d'entraînement et runtimes de modèles qui sous-tendent les applications d'IA.",
+      "objectives": [
+        "build-ai",
+        "run-llm"
+      ],
+      "tools": []
+    },
+    {
+      "id": "business-software",
+      "name_en": "Business Application Software",
+      "name_fr": "Logiciels d'application métier",
+      "parent": "business",
+      "type": "business",
+      "description_en": "General-purpose business software for operations, managing teams and running a company.",
+      "description_fr": "Logiciels d'entreprise à usage général pour les opérations, la gestion d'équipe et la direction d'une société.",
+      "objectives": [
+        "run-business",
+        "collaborate"
+      ],
+      "tools": []
+    },
+    {
+      "id": "community-social",
+      "name_en": "Community & Social",
+      "name_fr": "Communauté & social",
+      "parent": "business",
+      "type": "business",
+      "description_en": "Community platforms, forums, social media management and audience engagement.",
+      "description_fr": "Plateformes communautaires, forums, gestion des réseaux sociaux et engagement de l'audience.",
+      "objectives": [
+        "collaborate",
+        "marketing"
+      ],
+      "tools": []
+    },
+    {
+      "id": "content-publishing",
+      "name_en": "Content & Publishing",
+      "name_fr": "Contenu & publication",
+      "parent": "productivity",
+      "type": "business",
+      "description_en": "Publishing tools for documents, blogs, newsletters, and public-facing content.",
+      "description_fr": "Outils de publication pour documents, blogs, newsletters et contenus publics.",
+      "objectives": [
+        "organize",
+        "create-content",
+        "marketing"
+      ],
+      "tools": []
+    },
+    {
+      "id": "data-analytics",
+      "name_en": "Analytics & Reporting",
+      "name_fr": "Analytique & reporting",
+      "parent": "data",
+      "type": "dev",
+      "description_en": "Analytics engines, reporting and insight tooling used to understand data.",
+      "description_fr": "Moteurs d'analyse, reporting et outils de compréhension des données.",
+      "objectives": [
+        "analyze-data"
+      ],
+      "tools": []
+    },
+    {
+      "id": "developer-tools",
+      "name_en": "Developer Tooling",
+      "name_fr": "Outils développeur",
+      "parent": "dev",
+      "type": "dev",
+      "description_en": "CLIs, SDKs, debugging, profiling and general developer utility tools.",
+      "description_fr": "CLI, SDK, débogage, profilage et outils utilitaires pour développeurs.",
+      "objectives": [
+        "developer-control",
+        "build-app"
+      ],
+      "tools": []
+    },
+    {
+      "id": "identity",
+      "name_en": "Identity & Access",
+      "name_fr": "Identité & accès",
+      "parent": "infra",
+      "type": "dev",
+      "description_en": "Authentication, authorization, SSO, passwordless and identity management systems.",
+      "description_fr": "Systèmes d'authentification, d'autorisation, de SSO, sans mot de passe et de gestion d'identité.",
+      "objectives": [
+        "self-host",
+        "secure"
+      ],
+      "tools": []
+    },
+    {
+      "id": "infrastructure-operations",
+      "name_en": "Infra Operations",
+      "name_fr": "Opérations d'infrastructure",
+      "parent": "infra",
+      "type": "dev",
+      "description_en": "Day-2 operations for infrastructure: orchestration, provisioning, secrets and services.",
+      "description_fr": "Opérations de jour 2 pour l'infrastructure : orchestration, provisionnement, secrets et services.",
+      "objectives": [
+        "self-host",
+        "deploy-quickly",
+        "run-business"
+      ],
+      "tools": []
+    },
+    {
+      "id": "misc",
+      "name_en": "Miscellaneous & Uncategorized",
+      "name_fr": "Divers & non catégorisé",
+      "parent": null,
+      "type": "misc",
+      "description_en": "Tools that have not yet been assigned to a primary category.",
+      "description_fr": "Outils non encore rattachés à une catégorie principale.",
+      "objectives": [],
+      "tools": []
+    },
+    {
+      "id": "open-source",
+      "name_en": "Open Source",
+      "name_fr": "Open source",
+      "parent": "selfhost",
+      "type": "open",
+      "description_en": "Cross-cutting open-source software, independent of application type.",
+      "description_fr": "Logiciels open source transversaux, indépendamment du type d'application.",
+      "objectives": [
+        "open-source",
+        "self-host"
+      ],
+      "tools": []
+    },
+    {
+      "id": "privacy",
+      "name_en": "Privacy-First",
+      "name_fr": "Confidentialité d'abord",
+      "parent": "selfhost",
+      "type": "open",
+      "description_en": "Privacy-first tools that minimize data collection and are designed to protect personal data.",
+      "description_fr": "Outils axés sur la confidentialité qui minimisent la collecte de données et protègent les données personnelles.",
+      "objectives": [
+        "secure",
+        "self-host",
+        "open-source"
+      ],
+      "tools": []
+    },
+    {
+      "id": "productivity-utilities",
+      "name_en": "Productivity Utilities",
+      "name_fr": "Utilitaires de productivité",
+      "parent": "productivity",
+      "type": "business",
+      "description_en": "General-purpose utilities and companion software that boost personal productivity.",
+      "description_fr": "Utilitaires à usage général et logiciels compagnons qui renforcent la productivité personnelle.",
+      "objectives": [
+        "organize",
+        "automate"
+      ],
+      "tools": []
+    },
+    {
+      "id": "security",
+      "name_en": "Security & Compliance",
+      "name_fr": "Sécurité & conformité",
+      "parent": "infra",
+      "type": "dev",
+      "description_en": "Security tooling, secrets management, vulnerability scanning and compliance.",
+      "description_fr": "Outils de sécurité, gestion des secrets, analyse des vulnérabilités et conformité.",
+      "objectives": [
+        "secure",
+        "self-host"
+      ],
+      "tools": []
+    },
+    {
+      "id": "security-privacy",
+      "name_en": "Security & Privacy",
+      "name_fr": "Sécurité & confidentialité",
+      "parent": "infra",
+      "type": "dev",
+      "description_en": "Tools combining security hardening and privacy protection.",
+      "description_fr": "Outils combinant durcissement de la sécurité et protection de la confidentialité.",
+      "objectives": [
+        "secure",
+        "self-host"
+      ],
+      "tools": []
+    },
+    {
+      "id": "session",
+      "name_en": "Session & Runtime",
+      "name_fr": "Session & runtime",
+      "parent": "infra",
+      "type": "dev",
+      "description_en": "Session management, runtime and middleware tooling for applications.",
+      "description_fr": "Gestion de session, runtime et outils intermédiaires pour applications.",
+      "objectives": [
+        "build-app",
+        "self-host"
+      ],
+      "tools": []
+    }
+  ]
+}

@@ -1,0 +1,700 @@
+{
+  "generated": "2026-09-02",
+  "dedup_method": [
+    "canonical tool_id",
+    "normalized name",
+    "github repository"
+  ],
+  "duplicates_found": 0,
+  "flag_for_human_review": [
+    {
+      "tool_id": "lovable",
+      "name": "Lovable",
+      "reason": "single-source; low confidence",
+      "license": "Proprietary",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "OpenAlternative"
+      ]
+    },
+    {
+      "tool_id": "bolt",
+      "name": "Bolt",
+      "reason": "single-source; low confidence",
+      "license": "Proprietary",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "OpenAlternative"
+      ]
+    },
+    {
+      "tool_id": "cursor",
+      "name": "Cursor",
+      "reason": "single-source; low confidence",
+      "license": "Proprietary",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "OpenAlternative"
+      ]
+    },
+    {
+      "tool_id": "privacynotes",
+      "name": "PrivacyNotes",
+      "reason": "single-source; low confidence",
+      "license": "AGPL-3.0",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "AlternativeTo"
+      ]
+    },
+    {
+      "tool_id": "logseq",
+      "name": "Logseq",
+      "reason": "single-source; low confidence",
+      "license": "AGPL-3.0",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "GitHub"
+      ]
+    },
+    {
+      "tool_id": "expo",
+      "name": "Expo",
+      "reason": "single-source; low confidence",
+      "license": "MIT",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "GitHub"
+      ]
+    },
+    {
+      "tool_id": "flutter",
+      "name": "Flutter",
+      "reason": "single-source; low confidence",
+      "license": "BSD-3-Clause",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "GitHub"
+      ]
+    },
+    {
+      "tool_id": "capcut",
+      "name": "CapCut",
+      "reason": "single-source; low confidence",
+      "license": "Proprietary",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "OpenAlternative"
+      ]
+    },
+    {
+      "tool_id": "kdenlive",
+      "name": "Kdenlive",
+      "reason": "single-source; low confidence",
+      "license": "GPL-2.0",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "GitHub"
+      ]
+    },
+    {
+      "tool_id": "monday",
+      "name": "monday.com",
+      "reason": "single-source; low confidence",
+      "license": "Proprietary",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "Capterra"
+      ]
+    },
+    {
+      "tool_id": "clickup",
+      "name": "ClickUp",
+      "reason": "single-source; low confidence",
+      "license": "Proprietary",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "Capterra"
+      ]
+    },
+    {
+      "tool_id": "focalboard",
+      "name": "Focalboard",
+      "reason": "single-source; low confidence",
+      "license": "MPL-2.0",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "GitHub"
+      ]
+    },
+    {
+      "tool_id": "openseo",
+      "name": "OpenSEO",
+      "reason": "single-source; low confidence",
+      "license": "MIT",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "OpenAlternative"
+      ]
+    },
+    {
+      "tool_id": "metabase",
+      "name": "Metabase",
+      "reason": "single-source; low confidence",
+      "license": "AGPL-3.0",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "GitHub"
+      ]
+    },
+    {
+      "tool_id": "scrapy",
+      "name": "Scrapy",
+      "reason": "single-source; low confidence",
+      "license": "BSD-3-Clause",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "GitHub"
+      ]
+    },
+    {
+      "tool_id": "vscode",
+      "name": "Visual Studio Code",
+      "reason": "single-source; low confidence",
+      "license": "MIT",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "GitHub"
+      ]
+    },
+    {
+      "tool_id": "twenty",
+      "name": "Twenty",
+      "reason": "single-source; low confidence",
+      "license": "AGPL-3.0",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "GitHub"
+      ]
+    },
+    {
+      "tool_id": "suitecrm",
+      "name": "SuiteCRM",
+      "reason": "single-source; low confidence",
+      "license": "AGPL-3.0",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "GitHub"
+      ]
+    },
+    {
+      "tool_id": "qwen",
+      "name": "Qwen",
+      "reason": "single-source; low confidence",
+      "license": "Apache-2.0 (weights)",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "tool_id": "llama",
+      "name": "Llama",
+      "reason": "single-source; low confidence",
+      "license": "Llama Community License",
+      "confidence": "medium",
+      "source_count": 2,
+      "sources": [
+        "Hugging Face",
+        "GitHub"
+      ]
+    },
+    {
+      "tool_id": "mistral",
+      "name": "Mistral",
+      "reason": "single-source; low confidence",
+      "license": "Apache-2.0 / commercial",
+      "confidence": "medium",
+      "source_count": 2,
+      "sources": [
+        "Hugging Face",
+        "GitHub"
+      ]
+    },
+    {
+      "tool_id": "nocodb",
+      "name": "NocoDB",
+      "reason": "single-source; low confidence",
+      "license": "AGPL-3.0",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "GitHub"
+      ]
+    },
+    {
+      "tool_id": "starship",
+      "name": "Starship",
+      "reason": "single-source; low confidence",
+      "license": "ISC",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "GitHub"
+      ]
+    },
+    {
+      "tool_id": "thunderbird",
+      "name": "Thunderbird",
+      "reason": "single-source; low confidence",
+      "license": "MPL-2.0",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "GitHub"
+      ]
+    },
+    {
+      "tool_id": "libreoffice",
+      "name": "LibreOffice",
+      "reason": "single-source; low confidence",
+      "license": "MPL-2.0",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "GitHub"
+      ]
+    },
+    {
+      "tool_id": "onlyoffice",
+      "name": "ONLYOFFICE",
+      "reason": "single-source; low confidence",
+      "license": "AGPL-3.0",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "GitHub"
+      ]
+    },
+    {
+      "tool_id": "flowise",
+      "name": "Flowise",
+      "reason": "single-source; low confidence",
+      "license": "Apache-2.0",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "GitHub"
+      ]
+    },
+    {
+      "tool_id": "obs",
+      "name": "OBS Studio",
+      "reason": "single-source; low confidence",
+      "license": "GPL-2.0",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "GitHub"
+      ]
+    },
+    {
+      "tool_id": "rustdesk",
+      "name": "RustDesk",
+      "reason": "single-source; low confidence",
+      "license": "AGPL-3.0",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "GitHub"
+      ]
+    },
+    {
+      "tool_id": "excalidraw",
+      "name": "Excalidraw",
+      "reason": "single-source; low confidence",
+      "license": "MIT",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "GitHub"
+      ]
+    },
+    {
+      "tool_id": "langchain",
+      "name": "LangChain",
+      "reason": "single-source; low confidence",
+      "license": "MIT",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "GitHub"
+      ]
+    },
+    {
+      "tool_id": "autogen",
+      "name": "AutoGen",
+      "reason": "single-source; low confidence",
+      "license": "MIT",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "GitHub"
+      ]
+    },
+    {
+      "tool_id": "caldav",
+      "name": "CalDAV",
+      "reason": "single-source; low confidence",
+      "license": "various",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "Awesome-Selfhosted"
+      ]
+    },
+    {
+      "tool_id": "openclaw",
+      "name": "OpenClaw",
+      "reason": "single-source; low confidence",
+      "license": "MIT",
+      "confidence": "medium",
+      "source_count": 2,
+      "sources": [
+        "OpenAlternative",
+        "GitHub"
+      ]
+    },
+    {
+      "tool_id": "hermes-agent",
+      "name": "Hermes Agent",
+      "reason": "single-source; low confidence",
+      "license": "MIT",
+      "confidence": "medium",
+      "source_count": 2,
+      "sources": [
+        "OpenAlternative",
+        "GitHub"
+      ]
+    },
+    {
+      "tool_id": "proton-lumo",
+      "name": "Proton Lumo",
+      "reason": "single-source; low confidence",
+      "license": "GPL-3.0",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "OpenAlternative"
+      ]
+    },
+    {
+      "tool_id": "postiz",
+      "name": "Postiz",
+      "reason": "single-source; low confidence",
+      "license": "AGPL-3.0",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "OpenAlternative"
+      ]
+    },
+    {
+      "tool_id": "dub-partners",
+      "name": "Dub Partners",
+      "reason": "single-source; low confidence",
+      "license": "AGPL-3.0",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "OpenAlternative"
+      ]
+    },
+    {
+      "tool_id": "crm",
+      "name": "CRM",
+      "reason": "single-source; low confidence",
+      "license": "MIT",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "OpenAlternative"
+      ]
+    },
+    {
+      "tool_id": "pi",
+      "name": "pi",
+      "reason": "single-source; low confidence",
+      "license": "MIT",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "OpenAlternative"
+      ]
+    },
+    {
+      "tool_id": "paperclip",
+      "name": "Paperclip",
+      "reason": "single-source; low confidence",
+      "license": "MIT",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "OpenAlternative"
+      ]
+    },
+    {
+      "tool_id": "voiceink",
+      "name": "VoiceInk",
+      "reason": "single-source; low confidence",
+      "license": "GPL-3.0",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "OpenAlternative"
+      ]
+    },
+    {
+      "tool_id": "macro-docs",
+      "name": "Macro Docs",
+      "reason": "single-source; low confidence",
+      "license": "AGPL-3.0",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "OpenAlternative"
+      ]
+    },
+    {
+      "tool_id": "netdata",
+      "name": "NetData",
+      "reason": "single-source; low confidence",
+      "license": "GPL-3.0",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "OpenAlternative"
+      ]
+    },
+    {
+      "tool_id": "mastodon",
+      "name": "Mastodon",
+      "reason": "single-source; low confidence",
+      "license": "AGPL-3.0",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "OpenAlternative"
+      ]
+    },
+    {
+      "tool_id": "hey",
+      "name": "Hey",
+      "reason": "single-source; low confidence",
+      "license": "GPL-3.0",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "OpenAlternative"
+      ]
+    },
+    {
+      "tool_id": "bluesky",
+      "name": "Bluesky",
+      "reason": "single-source; low confidence",
+      "license": "MIT",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "OpenAlternative"
+      ]
+    },
+    {
+      "tool_id": "flarum",
+      "name": "Flarum",
+      "reason": "single-source; low confidence",
+      "license": "MIT",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "OpenAlternative"
+      ]
+    },
+    {
+      "tool_id": "apache-answer",
+      "name": "Apache Answer",
+      "reason": "single-source; low confidence",
+      "license": "Apache-2.0",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "OpenAlternative"
+      ]
+    },
+    {
+      "tool_id": "peertube",
+      "name": "PeerTube",
+      "reason": "single-source; low confidence",
+      "license": "AGPL-3.0",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "OpenAlternative"
+      ]
+    },
+    {
+      "tool_id": "lemmy",
+      "name": "Lemmy",
+      "reason": "single-source; low confidence",
+      "license": "AGPL-3.0",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "OpenAlternative"
+      ]
+    },
+    {
+      "tool_id": "payload",
+      "name": "Payload",
+      "reason": "single-source; low confidence",
+      "license": "MIT",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "OpenAlternative"
+      ]
+    },
+    {
+      "tool_id": "tolgee",
+      "name": "Tolgee",
+      "reason": "single-source; low confidence",
+      "license": "Apache-2.0",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "OpenAlternative"
+      ]
+    },
+    {
+      "tool_id": "mermaid",
+      "name": "Mermaid",
+      "reason": "single-source; low confidence",
+      "license": "MIT",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "OpenAlternative"
+      ]
+    },
+    {
+      "tool_id": "openpanel",
+      "name": "OpenPanel",
+      "reason": "single-source; low confidence",
+      "license": "AGPL-3.0",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "OpenAlternative"
+      ]
+    },
+    {
+      "tool_id": "home-assistant",
+      "name": "Home Assistant",
+      "reason": "single-source; low confidence",
+      "license": "Apache-2.0",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "OpenAlternative"
+      ]
+    },
+    {
+      "tool_id": "hyperswitch",
+      "name": "Hyperswitch",
+      "reason": "single-source; low confidence",
+      "license": "Apache-2.0",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "OpenAlternative"
+      ]
+    },
+    {
+      "tool_id": "zen-browser",
+      "name": "Zen Browser",
+      "reason": "single-source; low confidence",
+      "license": "MPL-2.0",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "OpenAlternative"
+      ]
+    },
+    {
+      "tool_id": "puter",
+      "name": "Puter",
+      "reason": "single-source; low confidence",
+      "license": "AGPL-3.0",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "OpenAlternative"
+      ]
+    },
+    {
+      "tool_id": "tailscale",
+      "name": "Tailscale",
+      "reason": "single-source; low confidence",
+      "license": "BSD-3-Clause",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "OpenAlternative"
+      ]
+    },
+    {
+      "tool_id": "better-auth",
+      "name": "Better Auth",
+      "reason": "single-source; low confidence",
+      "license": "MIT",
+      "confidence": "medium",
+      "source_count": 1,
+      "sources": [
+        "OpenAlternative"
+      ]
+    },
+    {
+      "tool_id": "hanko",
+      "name": "Hanko",
+      "reason": "single-source; low confidence",
+      "license": "Apache-2.0",
+      "confidence": "medium",
+      "source_count": 2,
+      "sources": [
+        "OpenAlternative",
+        "GitHub"
+      ]
+    }
+  ],
+  "flag_count": 62,
+  "notes": "Canonical tool_id is the single dedup key. Same name across sources merges into one record. flag_for_human_review = records whose license is unresolved OR whose confidence is medium (single source). These need a confirming crawl before publication."
+}

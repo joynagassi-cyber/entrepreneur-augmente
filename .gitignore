@@ -1,3 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Prior-task scrape artifacts (large, regenerable via the build scripts)
+openalternative/assets/
+openalternative/*.pdf
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Keep the deliverables under /output tracked; these are the shipped library.
+
+# Outillage manuscrits (branche editoriale)
 tools/BACKUP-*.docx
 tools/*.json
 tools/__pycache__/
