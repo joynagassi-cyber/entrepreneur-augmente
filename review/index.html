@@ -88,7 +88,7 @@ function render(){
    '</div></div><table>'+rows.map(r=>'<tr class="'+cls[r.k]+'">'+cell(r.l)+cell(r.r)+'</tr>').join('')+'</table>';
 }
 document.getElementById('only').onchange=render;
-fetch('data.json').then(r=>r.json()).then(d=>{
+fetch('data.json?v='+Date.now()).then(r=>r.json()).then(d=>{
   D=d;
   const td=d.reduce((a,c)=>a+c.diffs,0), nc=d.filter(c=>c.diffs).length;
   document.getElementById('stats').innerHTML='<b>'+d.length+'</b> sections · <b>'+
