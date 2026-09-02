@@ -14,3 +14,10 @@ Thumbs.db
 .idea/
 
 # Keep the deliverables under /output tracked; these are the shipped library.
+
+# Outillage manuscrits (branche editoriale)
+tools/BACKUP-*.docx
+tools/*.json
+tools/__pycache__/
+tools/sample_*.png
+tools/inventory.json

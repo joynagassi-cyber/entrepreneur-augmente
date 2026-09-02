@@ -1,0 +1,72 @@
+{
+  "Name": "Captures-Viewport",
+  "CreationDate": "2026-09-02",
+  "Commands": [
+    {
+      "Command": "comment",
+      "Target": "",
+      "Value": "Lance ce macro avec le bouton LOOP, de 1 a 42",
+      "Description": ""
+    },
+    {
+      "Command": "csvRead",
+      "Target": "captures.csv",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "20000",
+      "Value": "!TIMEOUT_PAGELOAD",
+      "Description": ""
+    },
+    {
+      "Command": "open",
+      "Target": "${!COL1}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "4000",
+      "Value": "",
+      "Description": "laisse le temps aux polices et images"
+    },
+    {
+      "Command": "executeScript",
+      "Target": "window.scrollTo(0,document.body.scrollHeight); return 1;",
+      "Value": "",
+      "Description": "declenche le lazy-load"
+    },
+    {
+      "Command": "pause",
+      "Target": "2500",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "window.scrollTo(0,0); return 1;",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "1500",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "capturescreenshot",
+      "Target": "${!COL2}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "OK ${!LOOP} : ${!COL2}",
+      "Value": "",
+      "Description": ""
+    }
+  ]
+}
