@@ -1,0 +1,1159 @@
+{
+  "generated": "2026-09-02",
+  "asset_count": 128,
+  "assets": [
+    {
+      "tool_id": "claude-code",
+      "name": "Claude Code",
+      "asset_used": "assets/favicons/claude-code.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "lovable",
+      "name": "Lovable",
+      "asset_used": "assets/favicons/lovable.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "bolt",
+      "name": "Bolt",
+      "asset_used": "assets/favicons/bolt.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "bolt-diy",
+      "name": "Bolt.diy",
+      "asset_used": "assets/favicons/bolt-diy.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "cursor",
+      "name": "Cursor",
+      "asset_used": "assets/favicons/cursor.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "opencode",
+      "name": "OpenCode",
+      "asset_used": "assets/favicons/opencode.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "langflow",
+      "name": "Langflow",
+      "asset_used": "assets/favicons/langflow.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "dify",
+      "name": "Dify",
+      "asset_used": "assets/favicons/dify.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "ollama",
+      "name": "Ollama",
+      "asset_used": "assets/favicons/ollama.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "open-webui",
+      "name": "Open WebUI",
+      "asset_used": "assets/favicons/open-webui.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "notion",
+      "name": "Notion",
+      "asset_used": "assets/favicons/notion.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "obsidian",
+      "name": "Obsidian",
+      "asset_used": "assets/favicons/obsidian.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "appflowy",
+      "name": "AppFlowy",
+      "asset_used": "assets/favicons/appflowy.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "privacynotes",
+      "name": "PrivacyNotes",
+      "asset_used": "assets/favicons/privacynotes.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "logseq",
+      "name": "Logseq",
+      "asset_used": "assets/favicons/logseq.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "n8n",
+      "name": "n8n",
+      "asset_used": "assets/favicons/n8n.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "activepieces",
+      "name": "Activepieces",
+      "asset_used": "assets/favicons/activepieces.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "postgres",
+      "name": "PostgreSQL",
+      "asset_used": "assets/favicons/postgresql.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "sqlite",
+      "name": "SQLite",
+      "asset_used": "assets/favicons/sqlite.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "supabase",
+      "name": "Supabase",
+      "asset_used": "assets/favicons/supabase.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "firebase",
+      "name": "Firebase",
+      "asset_used": "assets/favicons/firebase.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "react",
+      "name": "React",
+      "asset_used": "assets/favicons/react.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "nextjs",
+      "name": "Next.js",
+      "asset_used": "assets/favicons/next-js.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "expo",
+      "name": "Expo",
+      "asset_used": "assets/favicons/expo.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "flutter",
+      "name": "Flutter",
+      "asset_used": "assets/favicons/flutter.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "figma",
+      "name": "Figma",
+      "asset_used": "assets/favicons/figma.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "penpot",
+      "name": "Penpot",
+      "asset_used": "assets/favicons/penpot.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "capcut",
+      "name": "CapCut",
+      "asset_used": "assets/favicons/capcut.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "opencut",
+      "name": "OpenCut",
+      "asset_used": "assets/favicons/opencut.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "kdenlive",
+      "name": "Kdenlive",
+      "asset_used": "assets/favicons/kdenlive.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "monday",
+      "name": "monday.com",
+      "asset_used": "assets/favicons/monday-com.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "clickup",
+      "name": "ClickUp",
+      "asset_used": "assets/favicons/clickup.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "focalboard",
+      "name": "Focalboard",
+      "asset_used": "assets/favicons/focalboard.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "slack",
+      "name": "Slack",
+      "asset_used": "assets/favicons/slack.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "mattermost",
+      "name": "Mattermost",
+      "asset_used": "assets/favicons/mattermost.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "signal",
+      "name": "Signal",
+      "asset_used": "assets/favicons/signal.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "element",
+      "name": "Element",
+      "asset_used": "assets/favicons/element.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "openseo",
+      "name": "OpenSEO",
+      "asset_used": "assets/favicons/openseo.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "superset",
+      "name": "Apache Superset",
+      "asset_used": "assets/favicons/apache-superset.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "metabase",
+      "name": "Metabase",
+      "asset_used": "assets/favicons/metabase.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "grafana",
+      "name": "Grafana",
+      "asset_used": "assets/favicons/grafana.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "firecrawl",
+      "name": "Firecrawl",
+      "asset_used": "assets/favicons/firecrawl.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "scrapy",
+      "name": "Scrapy",
+      "asset_used": "assets/favicons/scrapy.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "uptime-kuma",
+      "name": "Uptime Kuma",
+      "asset_used": "assets/favicons/uptime-kuma.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "healthchecks",
+      "name": "Healthchecks",
+      "asset_used": "assets/favicons/healthchecks.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "bitwarden",
+      "name": "Bitwarden",
+      "asset_used": "assets/favicons/bitwarden.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "keycloak",
+      "name": "Keycloak",
+      "asset_used": "assets/favicons/keycloak.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "authentik",
+      "name": "Authentik",
+      "asset_used": "assets/favicons/authentik.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "immich",
+      "name": "Immich",
+      "asset_used": "assets/favicons/immich.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "nextcloud",
+      "name": "Nextcloud",
+      "asset_used": "assets/favicons/nextcloud.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "jellyfin",
+      "name": "Jellyfin",
+      "asset_used": "assets/favicons/jellyfin.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "outline",
+      "name": "Outline",
+      "asset_used": "assets/favicons/outline.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "bookstack",
+      "name": "BookStack",
+      "asset_used": "assets/favicons/bookstack.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "vscode",
+      "name": "Visual Studio Code",
+      "asset_used": "assets/favicons/visual-studio-code.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "twenty",
+      "name": "Twenty",
+      "asset_used": "assets/favicons/twenty.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "suitecrm",
+      "name": "SuiteCRM",
+      "asset_used": "assets/favicons/suitecrm.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "qwen",
+      "name": "Qwen",
+      "asset_used": "assets/favicons/qwen.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "llama",
+      "name": "Llama",
+      "asset_used": "assets/favicons/llama.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "mistral",
+      "name": "Mistral",
+      "asset_used": "assets/favicons/mistral.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "transformers",
+      "name": "Transformers",
+      "asset_used": "assets/favicons/transformers.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "airtable",
+      "name": "Airtable",
+      "asset_used": "assets/favicons/airtable.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "baserow",
+      "name": "Baserow",
+      "asset_used": "assets/favicons/baserow.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "nocodb",
+      "name": "NocoDB",
+      "asset_used": "assets/favicons/nocodb.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "git",
+      "name": "Git",
+      "asset_used": "assets/favicons/git.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "github",
+      "name": "GitHub",
+      "asset_used": "assets/favicons/github.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "gitea",
+      "name": "Gitea",
+      "asset_used": "assets/favicons/gitea.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "syncthing",
+      "name": "Syncthing",
+      "asset_used": "assets/favicons/syncthing.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "docker",
+      "name": "Docker",
+      "asset_used": "assets/favicons/docker.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "vercel",
+      "name": "Vercel",
+      "asset_used": "assets/favicons/vercel.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "coolify",
+      "name": "Coolify",
+      "asset_used": "assets/favicons/coolify.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "starship",
+      "name": "Starship",
+      "asset_used": "assets/favicons/starship.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "thunderbird",
+      "name": "Thunderbird",
+      "asset_used": "assets/favicons/thunderbird.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "moodle",
+      "name": "Moodle",
+      "asset_used": "assets/favicons/moodle.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "godot",
+      "name": "Godot",
+      "asset_used": "assets/favicons/godot.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "libreoffice",
+      "name": "LibreOffice",
+      "asset_used": "assets/favicons/libreoffice.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "onlyoffice",
+      "name": "ONLYOFFICE",
+      "asset_used": "assets/favicons/onlyoffice.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "parlant",
+      "name": "Parlant",
+      "asset_used": "assets/favicons/parlant.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "flowise",
+      "name": "Flowise",
+      "asset_used": "assets/favicons/flowise.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "invoiceplane",
+      "name": "InvoicePlane",
+      "asset_used": "assets/favicons/invoiceplane.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "akaunting",
+      "name": "Akaunting",
+      "asset_used": "assets/favicons/akaunting.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "crawl4ai",
+      "name": "Crawl4AI",
+      "asset_used": "assets/favicons/crawl4ai.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "elasticsearch",
+      "name": "Elasticsearch",
+      "asset_used": "assets/favicons/elasticsearch.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "meilisearch",
+      "name": "Meilisearch",
+      "asset_used": "assets/favicons/meilisearch.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "cap",
+      "name": "Cap",
+      "asset_used": "assets/favicons/cap.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "obs",
+      "name": "OBS Studio",
+      "asset_used": "assets/favicons/obs-studio.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "rustdesk",
+      "name": "RustDesk",
+      "asset_used": "assets/favicons/rustdesk.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "excalidraw",
+      "name": "Excalidraw",
+      "asset_used": "assets/favicons/excalidraw.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "zapier",
+      "name": "Zapier",
+      "asset_used": "assets/favicons/zapier.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "traefik",
+      "name": "Traefik",
+      "asset_used": "assets/favicons/traefik.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "caddy",
+      "name": "Caddy",
+      "asset_used": "assets/favicons/caddy.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "langchain",
+      "name": "LangChain",
+      "asset_used": "assets/favicons/langchain.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "autogen",
+      "name": "AutoGen",
+      "asset_used": "assets/favicons/autogen.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "strapi",
+      "name": "Strapi",
+      "asset_used": "assets/favicons/strapi.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "ghost",
+      "name": "Ghost",
+      "asset_used": "assets/favicons/ghost.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "caldav",
+      "name": "CalDAV",
+      "asset_used": "assets/favicons/caldav.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "openclaw",
+      "name": "OpenClaw",
+      "asset_used": "assets/favicons/openclaw.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "hermes-agent",
+      "name": "Hermes Agent",
+      "asset_used": "assets/favicons/hermes-agent.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "macro-mail",
+      "name": "Macro Mail",
+      "asset_used": "assets/favicons/macro-mail.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "proton-lumo",
+      "name": "Proton Lumo",
+      "asset_used": "assets/favicons/proton-lumo.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "novu",
+      "name": "Novu",
+      "asset_used": "assets/favicons/novu.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "postiz",
+      "name": "Postiz",
+      "asset_used": "assets/favicons/postiz.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "dub-partners",
+      "name": "Dub Partners",
+      "asset_used": "assets/favicons/dub-partners.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "crm",
+      "name": "CRM",
+      "asset_used": "assets/favicons/crm.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "pi",
+      "name": "pi",
+      "asset_used": "assets/favicons/pi.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "paperclip",
+      "name": "Paperclip",
+      "asset_used": "assets/favicons/paperclip.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "voiceink",
+      "name": "VoiceInk",
+      "asset_used": "assets/favicons/voiceink.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "macro-docs",
+      "name": "Macro Docs",
+      "asset_used": "assets/favicons/macro-docs.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "netdata",
+      "name": "NetData",
+      "asset_used": "assets/favicons/netdata.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "mastodon",
+      "name": "Mastodon",
+      "asset_used": "assets/favicons/mastodon.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "discourse",
+      "name": "Discourse",
+      "asset_used": "assets/favicons/discourse.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "hey",
+      "name": "Hey",
+      "asset_used": "assets/favicons/hey.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "bluesky",
+      "name": "Bluesky",
+      "asset_used": "assets/favicons/bluesky.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "flarum",
+      "name": "Flarum",
+      "asset_used": "assets/favicons/flarum.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "apache-answer",
+      "name": "Apache Answer",
+      "asset_used": "assets/favicons/apache-answer.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "peertube",
+      "name": "PeerTube",
+      "asset_used": "assets/favicons/peertube.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "lemmy",
+      "name": "Lemmy",
+      "asset_used": "assets/favicons/lemmy.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "payload",
+      "name": "Payload",
+      "asset_used": "assets/favicons/payload.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "tolgee",
+      "name": "Tolgee",
+      "asset_used": "assets/favicons/tolgee.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "mermaid",
+      "name": "Mermaid",
+      "asset_used": "assets/favicons/mermaid.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "openbb",
+      "name": "OpenBB",
+      "asset_used": "assets/favicons/openbb.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "openpanel",
+      "name": "OpenPanel",
+      "asset_used": "assets/favicons/openpanel.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "home-assistant",
+      "name": "Home Assistant",
+      "asset_used": "assets/favicons/home-assistant.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "hyperswitch",
+      "name": "Hyperswitch",
+      "asset_used": "assets/favicons/hyperswitch.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "zen-browser",
+      "name": "Zen Browser",
+      "asset_used": "assets/favicons/zen-browser.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "puter",
+      "name": "Puter",
+      "asset_used": "assets/favicons/puter.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "tailscale",
+      "name": "Tailscale",
+      "asset_used": "assets/favicons/tailscale.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "better-auth",
+      "name": "Better Auth",
+      "asset_used": "assets/favicons/better-auth.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    },
+    {
+      "tool_id": "hanko",
+      "name": "Hanko",
+      "asset_used": "assets/favicons/hanko.png",
+      "asset_present": true,
+      "source_url": null,
+      "type": "generated-monomark",
+      "status": "generated"
+    }
+  ],
+  "note": "Official favicons are behind a blocked CDN; generated letter-marks used where real logos are unavailable."
+}
