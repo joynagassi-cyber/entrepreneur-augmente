@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Relecture FR / EN — L'Entrepreneur Augmenté</title>
+<style>
+:root{--bg:#0f1115;--panel:#171a21;--line:#262b36;--tx:#e6e8ee;--mut:#8b93a5;--acc:#6ea8fe;
+--add:#1f3a28;--del:#3a1f22;--mod:#3a331f;--addb:#3fb950;--delb:#f85149;--modb:#d29922;}
+*{box-sizing:border-box}
+body{margin:0;font:15px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,sans-serif;background:var(--bg);color:var(--tx)}
+header{position:sticky;top:0;z-index:10;background:#12151b;border-bottom:1px solid var(--line);padding:12px 20px;display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+h1{font-size:16px;margin:0;font-weight:600}
+.stats{color:var(--mut);font-size:13px}
+.stats b{color:var(--tx)}
+.wrap{display:flex;height:calc(100vh - 57px)}
+aside{width:340px;flex:none;overflow:auto;border-right:1px solid var(--line);background:#12151b}
+aside .it{padding:9px 14px;border-bottom:1px solid #1c202a;cursor:pointer;font-size:13px}
+aside .it:hover{background:#1a1f29}
+aside .it.on{background:#1e2634;border-left:3px solid var(--acc);padding-left:11px}
+aside .it .t{display:block;color:var(--tx)}
+aside .it .m{color:var(--mut);font-size:11px}
+.badge{float:right;background:var(--modb);color:#000;border-radius:10px;padding:0 7px;font-size:11px;font-weight:700}
+.badge.ok{background:#2a3140;color:var(--mut);font-weight:400}
+main{flex:1;overflow:auto;padding:0 0 60px}
+.chead{position:sticky;top:0;background:#12151b;border-bottom:1px solid var(--line);padding:14px 22px;z-index:5}
+.chead h2{margin:0 0 4px;font-size:17px}
+.chead .sub{color:var(--mut);font-size:13px}
+table{width:100%;border-collapse:collapse;table-layout:fixed}
+td{vertical-align:top;padding:7px 16px;border-bottom:1px solid #1a1e27;width:50%;font-size:14px}
+tr.d-add td{background:var(--add)} tr.d-del td{background:var(--del)} tr.d-mod td{background:var(--mod)}
+tr.d-add,tr.d-del,tr.d-mod{border-left:3px solid}
+tr.d-add{border-left-color:var(--addb)}tr.d-del{border-left-color:var(--delb)}tr.d-mod{border-left-color:var(--modb)}
+td.empty{background:#101318 !important;opacity:.4}
+.st{display:inline-block;font:11px ui-monospace,monospace;color:var(--mut);background:#1e2330;border-radius:3px;padding:1px 6px;margin-bottom:3px}
+.st.h{color:var(--acc)}
+.code{font:12.5px/1.5 ui-monospace,SFMono-Regular,monospace;white-space:pre-wrap;color:#c9d1d9}
+.img{color:var(--acc);font-size:12px}
+label{font-size:13px;color:var(--mut);display:flex;gap:6px;align-items:center;cursor:pointer}
+input[type=checkbox]{accent-color:var(--acc)}
+.leg{display:flex;gap:12px;font-size:12px;color:var(--mut)}
+.dot{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:4px}
+</style>
+</head>
+<body>
+<header>
+  <h1>Relecture FR ⇄ EN</h1>
+  <div class="stats" id="stats"></div>
+  <label><input type="checkbox" id="only"> Écarts seulement</label>
+  <div class="leg">
+    <span><i class="dot" style="background:#f85149"></i>Manque en EN</span>
+    <span><i class="dot" style="background:#3fb950"></i>Manque en FR</span>
+    <span><i class="dot" style="background:#d29922"></i>Divergent</span>
+  </div>
+</header>
+<div class="wrap">
+  <aside id="nav"></aside>
+  <main id="main"></main>
+</div>
+<script>
+let D=[],cur=0;
+const esc=s=>(s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+const HEAD=['ChapterTitle','Heading1','Heading2','Heading3','Subtitle','EABookTitle'];
+function cell(p){
+  if(!p) return '<td class="empty"></td>';
+  const h=HEAD.includes(p.style), code=p.style==='CodeBlock';
+  let t=esc(p.text);
+  if(p.img) t+=' <span class="img">🖼 '+p.img+' image(s)</span>';
+  return '<td><span class="st'+(h?' h':'')+'">'+esc(p.style)+'</span><div'+(code?' class="code"':'')+
+    (h?' style="font-weight:600"':'')+'>'+t+'</div></td>';
+}
+function renderNav(){
+  document.getElementById('nav').innerHTML=D.map((c,i)=>
+    '<div class="it'+(i===cur?' on':'')+'" onclick="sel('+i+')">'+
+    '<span class="badge'+(c.diffs?'':' ok')+'">'+(c.diffs||'✓')+'</span>'+
+    '<span class="t">'+esc(c.tfr.slice(0,44))+'</span>'+
+    '<span class="m">'+c.wfr+' / '+c.wen+' mots</span></div>').join('');
+}
+function sel(i){cur=i;renderNav();render();document.getElementById('main').scrollTop=0;}
+function render(){
+  const c=D[cur],only=document.getElementById('only').checked;
+  const rows=c.rows.filter(r=>!only||r.k!=='=');
+  const cls={'=':'','+':'d-add','-':'d-del','~':'d-mod'};
+  document.getElementById('main').innerHTML=
+   '<div class="chead"><h2>'+esc(c.tfr)+'</h2><div class="sub">'+esc(c.ten)+
+   ' &nbsp;·&nbsp; FR '+c.wfr+' mots / EN '+c.wen+' mots &nbsp;·&nbsp; '+
+   (c.diffs?('<b style="color:#d29922">'+c.diffs+' écart(s)</b>'):'<span style="color:#3fb950">aligné</span>')+
+   '</div></div><table>'+rows.map(r=>'<tr class="'+cls[r.k]+'">'+cell(r.l)+cell(r.r)+'</tr>').join('')+'</table>';
+}
+document.getElementById('only').onchange=render;
+fetch('data.json').then(r=>r.json()).then(d=>{
+  D=d;
+  const td=d.reduce((a,c)=>a+c.diffs,0), nc=d.filter(c=>c.diffs).length;
+  document.getElementById('stats').innerHTML='<b>'+d.length+'</b> sections · <b>'+
+    d.reduce((a,c)=>a+c.wfr,0).toLocaleString('fr')+'</b> mots FR · <b>'+
+    d.reduce((a,c)=>a+c.wen,0).toLocaleString('fr')+'</b> mots EN · <b style="color:#d29922">'+td+
+    '</b> écarts dans <b>'+nc+'</b> sections';
+  cur=d.findIndex(c=>c.diffs); if(cur<0)cur=0;
+  renderNav();render();
+});
+</script>
+</body>
+</html>

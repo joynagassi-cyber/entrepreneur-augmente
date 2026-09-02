@@ -1,0 +1,3 @@
+tools/BACKUP-*.docx
+tools/*.json
+tools/__pycache__/
