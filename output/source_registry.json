@@ -1,0 +1,142 @@
+{
+  "generated": "2026-09-02",
+  "sources": [
+    {
+      "source": "OpenAlternative",
+      "url": "https://openalternative.co/categories",
+      "type": "Primary directory",
+      "purpose": "Primary discovery",
+      "crawl_status": "captured",
+      "pages_visited": 11,
+      "tools_discovered": 69,
+      "contribution": 80,
+      "reliability": "High",
+      "note": "Primary + landing + sitemap captured via platform fetch."
+    },
+    {
+      "source": "AlternativeTo",
+      "url": "https://alternativeto.net/",
+      "type": "Secondary directory",
+      "purpose": "Alternatives & relationships",
+      "crawl_status": "partial",
+      "pages_visited": 1,
+      "tools_discovered": 4,
+      "contribution": 4,
+      "reliability": "Medium",
+      "note": "Notion page inspected; used for note-taking alternatives."
+    },
+    {
+      "source": "GitHub (API)",
+      "url": "https://api.github.com",
+      "type": "Authoritative verification",
+      "purpose": "License/repo verification",
+      "crawl_status": "verified",
+      "pages_visited": 79,
+      "tools_discovered": 79,
+      "contribution": 79,
+      "reliability": "High (Priority 1/2)",
+      "note": "77 licenses verified."
+    },
+    {
+      "source": "Awesome-Selfhosted",
+      "url": "https://awesome-selfhosted.net/",
+      "type": "OSS list",
+      "purpose": "Open-source/self-hosted discovery",
+      "crawl_status": "partial",
+      "pages_visited": 1,
+      "tools_discovered": 12,
+      "contribution": 14,
+      "reliability": "Medium-High",
+      "note": "Homepage indexed; self-hosted candidates added."
+    },
+    {
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/",
+      "type": "AI model registry",
+      "purpose": "AI/open-weight vs open-source distinction",
+      "crawl_status": "partial",
+      "pages_visited": 1,
+      "tools_discovered": 5,
+      "contribution": 4,
+      "reliability": "High",
+      "note": "Models homepage; open-weight distinction noted."
+    },
+    {
+      "source": "StackShare",
+      "url": "https://stackshare.io/",
+      "type": "Tech stack directory",
+      "purpose": "Dev/infra tooling combos",
+      "crawl_status": "partial",
+      "pages_visited": 1,
+      "tools_discovered": 8,
+      "contribution": 8,
+      "reliability": "Medium",
+      "note": "Trending comparisons inspected."
+    },
+    {
+      "source": "Capterra",
+      "url": "https://www.capterra.com/",
+      "type": "Commercial directory",
+      "purpose": "Business software categorization",
+      "crawl_status": "partial",
+      "pages_visited": 1,
+      "tools_discovered": 6,
+      "contribution": 7,
+      "reliability": "Medium",
+      "note": "Homepage categories; commercial leaders."
+    },
+    {
+      "source": "GitHub Awesome Lists",
+      "url": "https://github.com/awesome-selfhosted",
+      "type": "Community list",
+      "purpose": "Discovery",
+      "crawl_status": "indexed",
+      "pages_visited": 0,
+      "tools_discovered": 128,
+      "contribution": 0,
+      "reliability": "Low-Medium",
+      "note": "Used for discovery direction."
+    },
+    {
+      "source": "F-Droid",
+      "url": "https://f-droid.org/",
+      "type": "Open-source mobile repo",
+      "purpose": "Open-source Android apps",
+      "crawl_status": "blocked",
+      "pages_visited": 0,
+      "tools_discovered": 2,
+      "contribution": 3,
+      "reliability": "Medium",
+      "note": "Specific package URL returned 404; mobile OSS from knowledge + GitHub."
+    },
+    {
+      "source": "G2",
+      "url": "https://www.g2.com/",
+      "type": "Commercial directory",
+      "purpose": "Commercial comparison",
+      "crawl_status": "blocked",
+      "pages_visited": 0,
+      "tools_discovered": 0,
+      "contribution": 0,
+      "reliability": "Medium",
+      "note": "/categories/ai returned 404; not reliably crawlable via fetch."
+    },
+    {
+      "source": "GetApp",
+      "url": "https://www.getapp.com/",
+      "type": "Commercial directory",
+      "purpose": "Discovery",
+      "crawl_status": "not-tested",
+      "pages_visited": 0,
+      "tools_discovered": 0,
+      "contribution": 0,
+      "reliability": "Medium",
+      "note": "Sandbox blocked; not reachable via fetch in this run."
+    }
+  ],
+  "summary": {
+    "pages_total_crawled": 14,
+    "tools_total": 128,
+    "verified_licenses": 77
+  }
+}
