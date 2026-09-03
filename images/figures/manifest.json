@@ -1,0 +1,1772 @@
+[
+ {
+  "id": "ch01-niveaux",
+  "anchor": {
+   "fr": [
+    "BodyText",
+    "Un workflow est un chemin défini à l’avance"
+   ],
+   "en": [
+    "BodyText",
+    "A workflow is a path defined in advance"
+   ]
+  },
+  "caption": {
+   "fr": "Trois niveaux de collaboration : plus l’IA choisit son chemin, plus le cadre doit être solide",
+   "en": "Three levels of collaboration: the more the AI chooses its path, the stronger the frame must be"
+  },
+  "mode": "after",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch01-niveaux.png",
+    "w": 1668,
+    "h": 559
+   },
+   "en": {
+    "path": "images/figures/en/ch01-niveaux.png",
+    "w": 1668,
+    "h": 566
+   }
+  }
+ },
+ {
+  "id": "ch02-proprietaire",
+  "anchor": {
+   "fr": [
+    "BodyText",
+    "Dès que la phrase commence par « l’IA m’a dit que je devais"
+   ],
+   "en": [
+    "BodyText",
+    "As soon as the sentence starts with “the AI told me I should"
+   ]
+  },
+  "caption": {
+   "fr": "Assistance, suggestion, décision : la frontière que l’IA ne franchit pas",
+   "en": "Assistance, suggestion, decision: the boundary the AI does not cross"
+  },
+  "mode": "after",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch02-proprietaire.png",
+    "w": 1668,
+    "h": 499
+   },
+   "en": {
+    "path": "images/figures/en/ch02-proprietaire.png",
+    "w": 1668,
+    "h": 498
+   }
+  }
+ },
+ {
+  "id": "ch03-hierarchie",
+  "anchor": {
+   "fr": [
+    "BodyText",
+    "Le code actuel peut contenir un bug. Une documentation peut être ancienne"
+   ],
+   "en": [
+    "BodyText",
+    "Current code can contain a bug. Documentation can be old"
+   ]
+  },
+  "caption": {
+   "fr": "La hiérarchie des sources : en cas de conflit, l’agent signale au lieu de choisir en silence",
+   "en": "The hierarchy of sources: on conflict, the agent flags instead of choosing in silence"
+  },
+  "mode": "after",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch03-hierarchie.png",
+    "w": 1668,
+    "h": 584
+   },
+   "en": {
+    "path": "images/figures/en/ch03-hierarchie.png",
+    "w": 1668,
+    "h": 584
+   }
+  }
+ },
+ {
+  "id": "ch04-matrice",
+  "anchor": {
+   "fr": [
+    "BodyText",
+    "La matrice évite qu’une action risquée soit traitée comme une simple modification locale"
+   ],
+   "en": [
+    "BodyText",
+    "The matrix stops a risky action being treated as a simple local change"
+   ]
+  },
+  "caption": {
+   "fr": "Le contrôle grandit avec le risque : de la lecture à l’action externe critique",
+   "en": "Control grows with risk: from reading to the critical external action"
+  },
+  "mode": "after",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch04-matrice.png",
+    "w": 1668,
+    "h": 539
+   },
+   "en": {
+    "path": "images/figures/en/ch04-matrice.png",
+    "w": 1668,
+    "h": 532
+   }
+  }
+ },
+ {
+  "id": "ch04-injection",
+  "anchor": {
+   "fr": [
+    "BodyText",
+    "Une injection directe arrive dans la demande. Une injection indirecte"
+   ],
+   "en": [
+    "BodyText",
+    "A direct injection arrives in the request. An indirect injection"
+   ]
+  },
+  "caption": {
+   "fr": "Injection indirecte : une donnée à analyser se fait passer pour une instruction à suivre",
+   "en": "Indirect injection: data to analyse disguises itself as an instruction to follow"
+  },
+  "mode": "after",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch04-injection.png",
+    "w": 1668,
+    "h": 544
+   },
+   "en": {
+    "path": "images/figures/en/ch04-injection.png",
+    "w": 1668,
+    "h": 544
+   }
+  }
+ },
+ {
+  "id": "ch05-competences",
+  "anchor": {
+   "fr": [
+    "BodyText",
+    "L’entrepreneur augmenté ne cherche pas à produire davantage de texte"
+   ],
+   "en": [
+    "BodyText",
+    "The augmented entrepreneur does not try to produce more text"
+   ]
+  },
+  "caption": {
+   "fr": "Les quatre compétences : raccourcir le chemin entre une question et une preuve fiable",
+   "en": "The four skills: shorten the path between a question and reliable evidence"
+  },
+  "mode": "after",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch05-competences.png",
+    "w": 1668,
+    "h": 232
+   },
+   "en": {
+    "path": "images/figures/en/ch05-competences.png",
+    "w": 1668,
+    "h": 232
+   }
+  }
+ },
+ {
+  "id": "ch06-puits",
+  "anchor": {
+   "fr": [
+    "BodyText",
+    "Le premier cas ressemble à un puits large et peu profond"
+   ],
+   "en": [
+    "BodyText",
+    "The first case looks like a wide, shallow well"
+   ]
+  },
+  "caption": {
+   "fr": "Puits large et peu profond contre puits étroit et profond : le second groupe a une raison de changer maintenant",
+   "en": "Wide shallow well versus narrow deep well: the second group has a reason to change now"
+  },
+  "mode": "after",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch06-puits.png",
+    "w": 1668,
+    "h": 549
+   },
+   "en": {
+    "path": "images/figures/en/ch06-puits.png",
+    "w": 1668,
+    "h": 524
+   }
+  }
+ },
+ {
+  "id": "ch06-signaux",
+  "anchor": {
+   "fr": [
+    "BodyText",
+    "Ce classement empêche de traiter un compliment comme un achat"
+   ],
+   "en": [
+    "BodyText",
+    "This ranking stops you treating a compliment as a purchase"
+   ]
+  },
+  "caption": {
+   "fr": "L’échelle des signaux : de l’opinion à la transaction, seul l’effort réel compte",
+   "en": "The ladder of signals: from opinion to transaction, only real effort counts"
+  },
+  "mode": "after",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch06-signaux.png",
+    "w": 1668,
+    "h": 532
+   },
+   "en": {
+    "path": "images/figures/en/ch06-signaux.png",
+    "w": 1668,
+    "h": 532
+   }
+  }
+ },
+ {
+  "id": "ch07-niveaux",
+  "anchor": {
+   "fr": [
+    "BodyText",
+    "L’entretien peut renforcer le premier niveau"
+   ],
+   "en": [
+    "BodyText",
+    "The interview can strengthen the first level"
+   ]
+  },
+  "caption": {
+   "fr": "Fait observé, interprétation, hypothèse commerciale : l’entretien ne prouve que le premier niveau",
+   "en": "Observed fact, interpretation, business hypothesis: the interview only proves the first level"
+  },
+  "mode": "after",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch07-niveaux.png",
+    "w": 1668,
+    "h": 263
+   },
+   "en": {
+    "path": "images/figures/en/ch07-niveaux.png",
+    "w": 1668,
+    "h": 263
+   }
+  }
+ },
+ {
+  "id": "ch08-experience",
+  "anchor": {
+   "fr": [
+    "BodyText",
+    "Vous n’avez pas besoin du mot. Vous avez besoin du geste : tester avant d’investir"
+   ],
+   "en": [
+    "BodyText",
+    "You do not need the word. You need the gesture: test before you invest"
+   ]
+  },
+  "caption": {
+   "fr": "Une expérience de validation est courte, datée, avec un seuil — et elle peut échouer",
+   "en": "A validation experiment is short, dated, with a threshold — and it can fail"
+  },
+  "mode": "after",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch08-experience.png",
+    "w": 1668,
+    "h": 421
+   },
+   "en": {
+    "path": "images/figures/en/ch08-experience.png",
+    "w": 1668,
+    "h": 420
+   }
+  }
+ },
+ {
+  "id": "ch09-phrase",
+  "anchor": {
+   "fr": [
+    "CodeBlock",
+    "Nous ne vendons pas de paiement, ni d’agent, ni de calendrier universel."
+   ],
+   "en": [
+    "CodeBlock",
+    "We do not sell payment, nor an agent, nor a universal calendar."
+   ]
+  },
+  "caption": {
+   "fr": "La phrase de valeur : six cases à remplir, une phrase lisible à voix haute, et ce que vous ne vendez pas",
+   "en": "The value sentence: six slots to fill, one sentence readable aloud, and what you do not sell"
+  },
+  "mode": "after",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch09-phrase.png",
+    "w": 1668,
+    "h": 551
+   },
+   "en": {
+    "path": "images/figures/en/ch09-phrase.png",
+    "w": 1668,
+    "h": 551
+   }
+  }
+ },
+ {
+  "id": "ch10-trois-objets",
+  "anchor": {
+   "fr": [
+    "BodyText",
+    "C’est souvent le bon MVP d’un entrepreneur augmenté"
+   ],
+   "en": [
+    "BodyText",
+    "That is often the right MVP of an augmented entrepreneur"
+   ]
+  },
+  "caption": {
+   "fr": "Prototype, MVP, produit : trois objets, trois questions différentes",
+   "en": "Prototype, MVP, product: three objects, three different questions"
+  },
+  "mode": "after",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch10-trois-objets.png",
+    "w": 1668,
+    "h": 470
+   },
+   "en": {
+    "path": "images/figures/en/ch10-trois-objets.png",
+    "w": 1668,
+    "h": 470
+   }
+  }
+ },
+ {
+  "id": "ch11-dfvr",
+  "anchor": {
+   "fr": [
+    "BodyText",
+    "Attention : ici, un score bas est dangereux"
+   ],
+   "en": [
+    "BodyText",
+    "Caution: here, a low score is dangerous"
+   ]
+  },
+  "caption": {
+   "fr": "La matrice D-F-V-R : quatre axes scorés de 0 à 4, le risque se lit à l’envers",
+   "en": "The D-F-V-R matrix: four axes scored 0 to 4, risk reads in reverse"
+  },
+  "mode": "after",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch11-dfvr.png",
+    "w": 1668,
+    "h": 797
+   },
+   "en": {
+    "path": "images/figures/en/ch11-dfvr.png",
+    "w": 1668,
+    "h": 797
+   }
+  }
+ },
+ {
+  "id": "ch12-niveaux",
+  "anchor": {
+   "fr": [
+    "BodyText",
+    "Le lecteur doit donc choisir le bon niveau"
+   ],
+   "en": [
+    "BodyText",
+    "The reader must therefore choose the right level"
+   ]
+  },
+  "caption": {
+   "fr": "Prompt, skill, workflow, méthode, connecteur : le niveau grandit avec la répétition et le nombre d’étapes",
+   "en": "Prompt, skill, workflow, method, connector: the level grows with repetition and the number of steps"
+  },
+  "mode": "after",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch12-niveaux.png",
+    "w": 1668,
+    "h": 611
+   },
+   "en": {
+    "path": "images/figures/en/ch12-niveaux.png",
+    "w": 1668,
+    "h": 566
+   }
+  }
+ },
+ {
+  "id": "ch13-couches",
+  "anchor": {
+   "fr": [
+    "BodyText",
+    "Le context engineering, c’est choisir la couche et la dose"
+   ],
+   "en": [
+    "BodyText",
+    "Context engineering is choosing the layer and the dose"
+   ]
+  },
+  "caption": {
+   "fr": "Cinq couches de contexte : on choisit la couche et la dose, on ne recopie pas les cinq à chaque run",
+   "en": "Five layers of context: you choose the layer and the dose, you do not copy all five on every run"
+  },
+  "mode": "after",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch13-couches.png",
+    "w": 1668,
+    "h": 521
+   },
+   "en": {
+    "path": "images/figures/en/ch13-couches.png",
+    "w": 1668,
+    "h": 521
+   }
+  }
+ },
+ {
+  "id": "ch13-deux-contextes",
+  "anchor": {
+   "fr": [
+    "BodyText",
+    "Si A « a l’air plus complet » et produit plus d’erreurs"
+   ],
+   "en": [
+    "BodyText",
+    "If A “looks more complete” and produces more errors"
+   ]
+  },
+  "caption": {
+   "fr": "Même tâche, deux paquets de contexte : le grenier produit des inventions, la carte produit la bonne sortie",
+   "en": "Same task, two context packages: the attic produces inventions, the map produces the right output"
+  },
+  "mode": "after",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch13-deux-contextes.png",
+    "w": 1668,
+    "h": 500
+   },
+   "en": {
+    "path": "images/figures/en/ch13-deux-contextes.png",
+    "w": 1668,
+    "h": 492
+   }
+  }
+ },
+ {
+  "id": "ch14-trois-objets",
+  "anchor": {
+   "fr": [
+    "BodyText",
+    "Un agent peut utiliser ces objets et décider d’une partie de son parcours"
+   ],
+   "en": [
+    "BodyText",
+    "An agent can use these objects and decide part of its journey"
+   ]
+  },
+  "caption": {
+   "fr": "Spec, skill, MCP : le plan, la procédure et la porte contrôlée — aucun des trois n’est l’agent",
+   "en": "Spec, skill, MCP: the plan, the procedure and the controlled door — none of the three is the agent"
+  },
+  "mode": "after",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch14-trois-objets.png",
+    "w": 1668,
+    "h": 456
+   },
+   "en": {
+    "path": "images/figures/en/ch14-trois-objets.png",
+    "w": 1668,
+    "h": 456
+   }
+  }
+ },
+ {
+  "id": "ch14-pipeline",
+  "anchor": {
+   "fr": [
+    "CodeBlock",
+    "A[Idée encore floue] --> B[Problème vu dans la vraie vie]"
+   ],
+   "en": [
+    "CodeBlock",
+    "A[Idea still fuzzy] --> B[Problem seen in real life]"
+   ]
+  },
+  "caption": {
+   "fr": "Le pipeline du livre : chaque étape transforme une sortie en entrée de la suivante",
+   "en": "The book’s pipeline: each step turns an output into the input of the next"
+  },
+  "mode": "replace_code",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch14-pipeline.png",
+    "w": 1668,
+    "h": 514
+   },
+   "en": {
+    "path": "images/figures/en/ch14-pipeline.png",
+    "w": 1668,
+    "h": 514
+   }
+  }
+ },
+ {
+  "id": "ch14-mcp",
+  "anchor": {
+   "fr": [
+    "BodyText",
+    "Avant une connexion, vérifiez : identité, scopes"
+   ],
+   "en": [
+    "BodyText",
+    "Before a connection, check: identity, scopes"
+   ]
+  },
+  "caption": {
+   "fr": "MCP : le serveur expose des outils, la spec et l’application décident de ce qui est autorisé dans ce run",
+   "en": "MCP: the server exposes tools, the spec and the application decide what is authorised in this run"
+  },
+  "mode": "after",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch14-mcp.png",
+    "w": 1668,
+    "h": 503
+   },
+   "en": {
+    "path": "images/figures/en/ch14-mcp.png",
+    "w": 1668,
+    "h": 503
+   }
+  }
+ },
+ {
+  "id": "ch15-boucle",
+  "anchor": {
+   "fr": [
+    "CodeBlock",
+    "Comprendre → Planifier → Agir → Vérifier → Intégrer"
+   ],
+   "en": [
+    "CodeBlock",
+    "Understand → Plan → Act → Check → Integrate"
+   ]
+  },
+  "caption": {
+   "fr": "Une boucle, pas un bouton : cinq étapes, et un retour « corriger » quand la vérification échoue",
+   "en": "A loop, not a button: five steps, and a “correct” return when checking fails"
+  },
+  "mode": "replace_code",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch15-boucle.png",
+    "w": 1668,
+    "h": 336
+   },
+   "en": {
+    "path": "images/figures/en/ch15-boucle.png",
+    "w": 1668,
+    "h": 336
+   }
+  }
+ },
+ {
+  "id": "ch15-etats",
+  "anchor": {
+   "fr": [
+    "BodyText",
+    "Un état doit être conservé dans un artefact ou un système de suivi"
+   ],
+   "en": [
+    "BodyText",
+    "A state must be kept in an artefact or a tracking system"
+   ]
+  },
+  "caption": {
+   "fr": "Les états d’un run : le chemin nominal, les arrêts et les sorties — conservés dans un artefact, pas dans la dernière phrase de l’agent",
+   "en": "The states of a run: the nominal path, the stops and the exits — kept in an artefact, not in the agent’s last sentence"
+  },
+  "mode": "after",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch15-etats.png",
+    "w": 1668,
+    "h": 484
+   },
+   "en": {
+    "path": "images/figures/en/ch15-etats.png",
+    "w": 1668,
+    "h": 484
+   }
+  }
+ },
+ {
+  "id": "ch15-jonction",
+  "anchor": {
+   "fr": [
+    "CodeBlock",
+    "A[Agent ou étape A] -->|handoff| J[Jonction]"
+   ],
+   "en": [
+    "CodeBlock",
+    "A[Agent or step A] -->|handoff| J[Junction]"
+   ]
+  },
+  "caption": {
+   "fr": "Le handoff est une interface : à la jonction, les preuves et les formats doivent s’aligner, sinon un humain décide",
+   "en": "The handoff is an interface: at the junction, evidence and formats must align, otherwise a human decides"
+  },
+  "mode": "replace_code",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch15-jonction.png",
+    "w": 1668,
+    "h": 379
+   },
+   "en": {
+    "path": "images/figures/en/ch15-jonction.png",
+    "w": 1668,
+    "h": 372
+   }
+  }
+ },
+ {
+  "id": "ch16-couches",
+  "anchor": {
+   "fr": [
+    "BodyText",
+    "Le journal d’audit n’entre pas entier dans le prompt"
+   ],
+   "en": [
+    "BodyText",
+    "The audit log does not enter the prompt in full"
+   ]
+  },
+  "caption": {
+   "fr": "Les couches à séparer : plus la durée est longue, plus l’entrée exige provenance, date et revue",
+   "en": "The layers to separate: the longer the lifetime, the more an entry requires provenance, date and review"
+  },
+  "mode": "after",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch16-couches.png",
+    "w": 1668,
+    "h": 559
+   },
+   "en": {
+    "path": "images/figures/en/ch16-couches.png",
+    "w": 1668,
+    "h": 559
+   }
+  }
+ },
+ {
+  "id": "ch16-cycle",
+  "anchor": {
+   "fr": [
+    "CodeBlock",
+    "W[write] --> M[manage] --> R[read] --> W"
+   ],
+   "en": [
+    "CodeBlock",
+    "W[write] --> M[manage] --> R[read] --> W"
+   ]
+  },
+  "caption": {
+   "fr": "Le cycle d’une mémoire : écrire avec provenance, gérer (corriger, désactiver, supprimer), lire à la demande",
+   "en": "The lifecycle of a memory: write with provenance, manage (correct, deactivate, delete), read on demand"
+  },
+  "mode": "replace_code",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch16-cycle.png",
+    "w": 1668,
+    "h": 277
+   },
+   "en": {
+    "path": "images/figures/en/ch16-cycle.png",
+    "w": 1668,
+    "h": 277
+   }
+  }
+ },
+ {
+  "id": "ch17-surfaces",
+  "anchor": {
+   "fr": [
+    "BodyText",
+    "Vous n’avez pas à tout maîtriser avant le premier incrément"
+   ],
+   "en": [
+    "BodyText",
+    "You do not have to master all four before the first increment"
+   ]
+  },
+  "caption": {
+   "fr": "Quatre surfaces, une phrase chacune : ce que le client voit, ce qui décide, ce qui est loué, ce qui est en ligne",
+   "en": "Four surfaces, one sentence each: what the customer sees, what decides, what is rented, what is online"
+  },
+  "mode": "after",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch17-surfaces.png",
+    "w": 1668,
+    "h": 419
+   },
+   "en": {
+    "path": "images/figures/en/ch17-surfaces.png",
+    "w": 1668,
+    "h": 419
+   }
+  }
+ },
+ {
+  "id": "ch17-couches",
+  "anchor": {
+   "fr": [
+    "CodeBlock",
+    "UI[Frontend — ce qu’on voit]"
+   ],
+   "en": [
+    "CodeBlock",
+    "UI[Frontend — what they see]"
+   ]
+  },
+  "caption": {
+   "fr": "Frontend, backend, domaine, infra : les responsabilités et les points de contrôle deviennent discutables",
+   "en": "Frontend, backend, domain, infra: responsibilities and control points become discussable"
+  },
+  "mode": "replace_code",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch17-couches.png",
+    "w": 1668,
+    "h": 400
+   },
+   "en": {
+    "path": "images/figures/en/ch17-couches.png",
+    "w": 1668,
+    "h": 400
+   }
+  }
+ },
+ {
+  "id": "ch18-tranche",
+  "anchor": {
+   "fr": [
+    "BodyText",
+    "Le premier incrément doit répondre à une question"
+   ],
+   "en": [
+    "BodyText",
+    "The first increment must answer a question"
+   ]
+  },
+  "caption": {
+   "fr": "Une tranche verticale traverse toutes les couches pour produire une petite valeur observable — pas une couche entière",
+   "en": "A vertical slice cuts through all the layers to produce a small observable value — not a whole layer"
+  },
+  "mode": "after",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch18-tranche.png",
+    "w": 1668,
+    "h": 449
+   },
+   "en": {
+    "path": "images/figures/en/ch18-tranche.png",
+    "w": 1668,
+    "h": 449
+   }
+  }
+ },
+ {
+  "id": "ch19-escalier",
+  "anchor": {
+   "fr": [
+    "BodyText",
+    "Le bon incrément n’est pas le plus petit morceau de code"
+   ],
+   "en": [
+    "BodyText",
+    "The right increment is not the smallest piece of code"
+   ]
+  },
+  "caption": {
+   "fr": "L’escalier des incréments : chaque marche produit une preuve que l’on peut relire ou annuler",
+   "en": "The staircase of increments: each step produces evidence you can reread or undo"
+  },
+  "mode": "after",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch19-escalier.png",
+    "w": 1668,
+    "h": 629
+   },
+   "en": {
+    "path": "images/figures/en/ch19-escalier.png",
+    "w": 1668,
+    "h": 584
+   }
+  }
+ },
+ {
+  "id": "ch20-pyramide",
+  "anchor": {
+   "fr": [
+    "CodeBlock",
+    "S[statique] --> U[unitaire]"
+   ],
+   "en": [
+    "CodeBlock",
+    "S[static] --> U[unit]"
+   ]
+  },
+  "caption": {
+   "fr": "La chaîne de preuve : chaque niveau établit une propriété, aucun ne certifie le produit entier",
+   "en": "The evidence chain: each level establishes a property, none certifies the whole product"
+  },
+  "mode": "replace_code",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch20-pyramide.png",
+    "w": 1668,
+    "h": 493
+   },
+   "en": {
+    "path": "images/figures/en/ch20-pyramide.png",
+    "w": 1668,
+    "h": 493
+   }
+  }
+ },
+ {
+  "id": "ch20-debug",
+  "anchor": {
+   "fr": [
+    "CodeBlock",
+    "A[Reproduire] --> B[Première divergence]"
+   ],
+   "en": [
+    "CodeBlock",
+    "A[Reproduce] --> B[First divergence]"
+   ]
+  },
+  "caption": {
+   "fr": "Quand une preuve échoue : reproduire, trouver la première divergence, corriger la cause, rejouer, prévenir",
+   "en": "When evidence fails: reproduce, find the first divergence, correct the cause, replay, prevent"
+  },
+  "mode": "replace_code",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch20-debug.png",
+    "w": 1668,
+    "h": 289
+   },
+   "en": {
+    "path": "images/figures/en/ch20-debug.png",
+    "w": 1668,
+    "h": 289
+   }
+  }
+ },
+ {
+  "id": "ch21-deux-parcours",
+  "anchor": {
+   "fr": [
+    "BodyText",
+    "Si vous n’écrivez qu’un parcours « utilisateur »"
+   ],
+   "en": [
+    "BodyText",
+    "If you write only one “user” journey"
+   ]
+  },
+  "caption": {
+   "fr": "Deux acteurs, deux parcours : le même état « jeudi 10 h — confirmé », vu des deux côtés",
+   "en": "Two actors, two journeys: the same state “Thursday 10:00 — confirmed”, seen from both sides"
+  },
+  "mode": "after",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch21-deux-parcours.png",
+    "w": 1668,
+    "h": 353
+   },
+   "en": {
+    "path": "images/figures/en/ch21-deux-parcours.png",
+    "w": 1668,
+    "h": 353
+   }
+  }
+ },
+ {
+  "id": "ch22-hier-maintenant",
+  "anchor": {
+   "fr": [
+    "CodeBlock",
+    "I1[Idée] --> M1[Main Figma ou Framer]"
+   ],
+   "en": [
+    "CodeBlock",
+    "I1[Idea] --> M1[Hand: Figma or Framer]"
+   ]
+  },
+  "caption": {
+   "fr": "Hier, la main et le goût ; maintenant, le goût écrit : l’écran arrive, vous tranchez s’il sert le parcours",
+   "en": "Yesterday, the hand and the taste; today, written taste: the screen arrives, you decide whether it serves the journey"
+  },
+  "mode": "replace_code",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch22-hier-maintenant.png",
+    "w": 1668,
+    "h": 350
+   },
+   "en": {
+    "path": "images/figures/en/ch22-hier-maintenant.png",
+    "w": 1668,
+    "h": 350
+   }
+  }
+ },
+ {
+  "id": "ch23-banc",
+  "anchor": {
+   "fr": [
+    "BodyText",
+    "Si le taux passe sous le seuil, vous baissez le niveau d’autonomie"
+   ],
+   "en": [
+    "BodyText",
+    "If the rate falls under the threshold, you lower the autonomy level"
+   ]
+  },
+  "caption": {
+   "fr": "Le banc d’évaluation : cinq tâches figées, rejouées à chaque changement, un seuil écrit avant la mesure",
+   "en": "The evaluation bench: five frozen tasks, replayed on every change, a threshold written before measuring"
+  },
+  "mode": "after",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch23-banc.png",
+    "w": 1668,
+    "h": 507
+   },
+   "en": {
+    "path": "images/figures/en/ch23-banc.png",
+    "w": 1668,
+    "h": 507
+   }
+  }
+ },
+ {
+  "id": "ch24-autorite",
+  "anchor": {
+   "fr": [
+    "BodyText",
+    "Les couches du chapitre 16 restent : mémoire durable"
+   ],
+   "en": [
+    "BodyText",
+    "The layers of chapter 16 remain: durable memory"
+   ]
+  },
+  "caption": {
+   "fr": "Une source d’autorité, pas une pile : l’agent lit le fichier daté au moment d’écrire, il ne « se souvient » pas",
+   "en": "One source of authority, not a pile: the agent reads the dated file when writing, it does not “remember”"
+  },
+  "mode": "after",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch24-autorite.png",
+    "w": 1668,
+    "h": 455
+   },
+   "en": {
+    "path": "images/figures/en/ch24-autorite.png",
+    "w": 1668,
+    "h": 455
+   }
+  }
+ },
+ {
+  "id": "ch25-triade",
+  "anchor": {
+   "fr": [
+    "BodyText",
+    "Un code correct peut partir sous une identité non autorisée"
+   ],
+   "en": [
+    "BodyText",
+    "Correct code can leave under an unauthorised identity"
+   ]
+  },
+  "caption": {
+   "fr": "Sécurité, qualité, gouvernance : trois questions distinctes, aucune ne remplace les deux autres",
+   "en": "Security, quality, governance: three distinct questions, none replaces the other two"
+  },
+  "mode": "after",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch25-triade.png",
+    "w": 1668,
+    "h": 381
+   },
+   "en": {
+    "path": "images/figures/en/ch25-triade.png",
+    "w": 1668,
+    "h": 381
+   }
+  }
+ },
+ {
+  "id": "ch25-chaine",
+  "anchor": {
+   "fr": [
+    "CodeBlock",
+    "Identité : agent de release dans le dépôt du projet."
+   ],
+   "en": [
+    "CodeBlock",
+    "Identity: release agent in the project repository."
+   ]
+  },
+  "caption": {
+   "fr": "La chaîne de contrôle d’une promotion en production : sept maillons, imposés par les permissions, les gates et les logs",
+   "en": "The control chain of a production promotion: seven links, enforced by permissions, gates and logs"
+  },
+  "mode": "replace_code",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch25-chaine.png",
+    "w": 1668,
+    "h": 510
+   },
+   "en": {
+    "path": "images/figures/en/ch25-chaine.png",
+    "w": 1668,
+    "h": 510
+   }
+  }
+ },
+ {
+  "id": "ch26-maturite",
+  "anchor": {
+   "fr": [
+    "BodyText",
+    "Limite. Ce cadre ne dit pas « il faut scaler »"
+   ],
+   "en": [
+    "BodyText",
+    "Limit. This frame does not say “you must scale”"
+   ]
+  },
+  "caption": {
+   "fr": "Le cadre de maturité : on monte seulement avec une preuve, on redescend après un incident",
+   "en": "The maturity frame: you move up only with evidence, you move down after an incident"
+  },
+  "mode": "after",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch26-maturite.png",
+    "w": 1668,
+    "h": 508
+   },
+   "en": {
+    "path": "images/figures/en/ch26-maturite.png",
+    "w": 1668,
+    "h": 508
+   }
+  }
+ },
+ {
+  "id": "ch26-promotion",
+  "anchor": {
+   "fr": [
+    "CodeBlock",
+    "A[build] --> B[vérifications CI]"
+   ],
+   "en": [
+    "CodeBlock",
+    "A[build] --> B[CI checks]"
+   ]
+  },
+  "caption": {
+   "fr": "La séquence de promotion : une suite de portes, la réussite d’une porte n’autorise pas à ignorer la suivante",
+   "en": "The promotion sequence: a series of gates, passing one gate does not authorise ignoring the next"
+  },
+  "mode": "replace_code",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch26-promotion.png",
+    "w": 1668,
+    "h": 345
+   },
+   "en": {
+    "path": "images/figures/en/ch26-promotion.png",
+    "w": 1668,
+    "h": 345
+   }
+  }
+ },
+ {
+  "id": "ch27-compatibilite",
+  "anchor": {
+   "fr": [
+    "CodeBlock",
+    "5. supprimer l’ancien chemin après la période décidée."
+   ],
+   "en": [
+    "CodeBlock",
+    "5. remove the old path after the decided period."
+   ]
+  },
+  "caption": {
+   "fr": "La période de compatibilité : l’ancien et le nouveau format coexistent jusqu’à la date décidée",
+   "en": "The compatibility period: the old and the new format coexist until the decided date"
+  },
+  "mode": "after",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch27-compatibilite.png",
+    "w": 1668,
+    "h": 479
+   },
+   "en": {
+    "path": "images/figures/en/ch27-compatibilite.png",
+    "w": 1668,
+    "h": 472
+   }
+  }
+ },
+ {
+  "id": "ch28-tiroirs",
+  "anchor": {
+   "fr": [
+    "BodyText",
+    "Un ticket qui ne rentre dans aucun tiroir n’entre pas dans le sprint"
+   ],
+   "en": [
+    "BodyText",
+    "A ticket that fits in no drawer does not enter the sprint"
+   ]
+  },
+  "caption": {
+   "fr": "Quatre tiroirs pour ranger une idée : chacun a sa question, sa preuve et sa suite",
+   "en": "Four drawers to file an idea: each has its question, its evidence and its next step"
+  },
+  "mode": "after",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch28-tiroirs.png",
+    "w": 1668,
+    "h": 429
+   },
+   "en": {
+    "path": "images/figures/en/ch28-tiroirs.png",
+    "w": 1668,
+    "h": 430
+   }
+  }
+ },
+ {
+  "id": "ch29-trois-couches",
+  "anchor": {
+   "fr": [
+    "BodyText",
+    "La proposition de valeur décrit le travail. Le positionnement choisit le voisinage"
+   ],
+   "en": [
+    "BodyText",
+    "The value proposition describes the work. Positioning chooses the neighbourhood"
+   ]
+  },
+  "caption": {
+   "fr": "Positionnement ≠ proposition de valeur ≠ offre : le voisinage choisi change la comparaison que fait le client",
+   "en": "Positioning ≠ value proposition ≠ offer: the chosen neighbourhood changes the comparison the customer makes"
+  },
+  "mode": "after",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch29-trois-couches.png",
+    "w": 1668,
+    "h": 388
+   },
+   "en": {
+    "path": "images/figures/en/ch29-trois-couches.png",
+    "w": 1668,
+    "h": 388
+   }
+  }
+ },
+ {
+  "id": "ch30-flux",
+  "anchor": {
+   "fr": [
+    "BodyText",
+    "Dans le fil rouge, l’outil de rendez-vous peut être techniquement prêt"
+   ],
+   "en": [
+    "BodyText",
+    "In the thread, the appointment tool can be technically ready"
+   ]
+  },
+  "caption": {
+   "fr": "Du paiement au versement : ce que le client paie n’est pas ce qui arrive sur votre compte",
+   "en": "From payment to payout: what the customer pays is not what lands in your account"
+  },
+  "mode": "after",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch30-flux.png",
+    "w": 1668,
+    "h": 419
+   },
+   "en": {
+    "path": "images/figures/en/ch30-flux.png",
+    "w": 1668,
+    "h": 419
+   }
+  }
+ },
+ {
+  "id": "ch30-encaisser",
+  "anchor": {
+   "fr": [
+    "BodyText",
+    "Un MoR peut simplifier une partie des ventes internationales"
+   ],
+   "en": [
+    "BodyText",
+    "A MoR can simplify part of international sales"
+   ]
+  },
+  "caption": {
+   "fr": "Quatre rôles pour encaisser : qui porte quoi entre le client et vous",
+   "en": "Four roles to collect payment: who carries what between the customer and you"
+  },
+  "mode": "after",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch30-encaisser.png",
+    "w": 1668,
+    "h": 383
+   },
+   "en": {
+    "path": "images/figures/en/ch30-encaisser.png",
+    "w": 1668,
+    "h": 383
+   }
+  }
+ },
+ {
+  "id": "ch31-entretien",
+  "anchor": {
+   "fr": [
+    "BodyText",
+    "Préparez une page, pas un argumentaire."
+   ],
+   "en": [
+    "BodyText",
+    "Prepare a page, not a brief."
+   ]
+  },
+  "caption": {
+   "fr": "L’entretien de vingt minutes : qualifier, démontrer, traiter une objection, demander la décision",
+   "en": "The twenty-minute interview: qualify, demonstrate, handle one objection, ask for the decision"
+  },
+  "mode": "after",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch31-entretien.png",
+    "w": 1668,
+    "h": 343
+   },
+   "en": {
+    "path": "images/figures/en/ch31-entretien.png",
+    "w": 1668,
+    "h": 329
+   }
+  }
+ },
+ {
+  "id": "ch32-canal",
+  "anchor": {
+   "fr": [
+    "BodyText",
+    "Ce n’est pas encore le CAC du chapitre 34"
+   ],
+   "en": [
+    "BodyText",
+    "This is not yet the CAC of chapter 34"
+   ]
+  },
+  "caption": {
+   "fr": "Portée n’est pas pipeline : ce qui compte est le coût d’une conversation utile, pas le nombre de vues",
+   "en": "Reach is not pipeline: what counts is the cost of a useful conversation, not the number of views"
+  },
+  "mode": "after",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch32-canal.png",
+    "w": 1668,
+    "h": 435
+   },
+   "en": {
+    "path": "images/figures/en/ch32-canal.png",
+    "w": 1668,
+    "h": 446
+   }
+  }
+ },
+ {
+  "id": "ch33-activation",
+  "anchor": {
+   "fr": [
+    "BodyText",
+    "Le temps jusqu’à l’activation compte autant que le taux"
+   ],
+   "en": [
+    "BodyText",
+    "Time to activation counts as much as the rate"
+   ]
+  },
+  "caption": {
+   "fr": "Activation, rétention, churn : le moment de valeur doit arriver dans les premières 48 heures, pas au jour 12",
+   "en": "Activation, retention, churn: the moment of value must arrive in the first 48 hours, not on day 12"
+  },
+  "mode": "after",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch33-activation.png",
+    "w": 1668,
+    "h": 472
+   },
+   "en": {
+    "path": "images/figures/en/ch33-activation.png",
+    "w": 1668,
+    "h": 472
+   }
+  }
+ },
+ {
+  "id": "ch34-marge",
+  "anchor": {
+   "fr": [
+    "BodyText",
+    "Les chiffres sont un exemple. Changez la devise, le tarif, le taux"
+   ],
+   "en": [
+    "BodyText",
+    "The figures are an example. Change the currency, the rate, the ratio"
+   ]
+  },
+  "caption": {
+   "fr": "Une ligne sans temps n’est pas une ligne : la marge « tableau de bord » contre la marge de contribution",
+   "en": "A line without time is not a line: the “dashboard” margin versus the contribution margin"
+  },
+  "mode": "after",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch34-marge.png",
+    "w": 1668,
+    "h": 400
+   },
+   "en": {
+    "path": "images/figures/en/ch34-marge.png",
+    "w": 1668,
+    "h": 400
+   }
+  }
+ },
+ {
+  "id": "ch34-ltv-cac",
+  "anchor": {
+   "fr": [
+    "BodyText",
+    "Ces formules sont des ordres de grandeur"
+   ],
+   "en": [
+    "BodyText",
+    "These formulas are orders of magnitude"
+   ]
+  },
+  "caption": {
+   "fr": "LTV / CAC sur le fil rouge : 58 contre 72 — une vente de plus, à ce canal, ne suffit pas",
+   "en": "LTV / CAC on the thread: 58 against 72 — one more sale, through this channel, is not enough"
+  },
+  "mode": "after",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch34-ltv-cac.png",
+    "w": 1668,
+    "h": 421
+   },
+   "en": {
+    "path": "images/figures/en/ch34-ltv-cac.png",
+    "w": 1668,
+    "h": 421
+   }
+  }
+ },
+ {
+  "id": "ch35-boucle",
+  "anchor": {
+   "fr": [
+    "BodyText",
+    "Si chaque vente recommence à zéro (dix nouveaux messages froids)"
+   ],
+   "en": [
+    "BodyText",
+    "If each sale starts from zero (ten new cold messages)"
+   ]
+  },
+  "caption": {
+   "fr": "Une boucle, pas un moulin : le résultat d’un tour alimente le tour suivant",
+   "en": "A loop, not a treadmill: the result of one turn feeds the next"
+  },
+  "mode": "after",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch35-boucle.png",
+    "w": 1668,
+    "h": 553
+   },
+   "en": {
+    "path": "images/figures/en/ch35-boucle.png",
+    "w": 1668,
+    "h": 553
+   }
+  }
+ },
+ {
+  "id": "ch36-modes",
+  "anchor": {
+   "fr": [
+    "BodyText",
+    "Le mode n’est pas un statut social. Il change par tâche"
+   ],
+   "en": [
+    "BodyText",
+    "The mode is not a social status. It changes by task"
+   ]
+  },
+  "caption": {
+   "fr": "Quatre modes de travail, choisis par tâche : la part de l’IA grandit seulement là où le périmètre est prouvé",
+   "en": "Four working modes, chosen per task: the AI’s share grows only where the perimeter is proven"
+  },
+  "mode": "after",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch36-modes.png",
+    "w": 1668,
+    "h": 446
+   },
+   "en": {
+    "path": "images/figures/en/ch36-modes.png",
+    "w": 1668,
+    "h": 446
+   }
+  }
+ },
+ {
+  "id": "ch37-modeles",
+  "anchor": {
+   "fr": [
+    "CodeBlock",
+    "subgraph A[A — Coordinateur et workers]"
+   ],
+   "en": [
+    "CodeBlock",
+    "subgraph A[A — Coordinator and workers]"
+   ]
+  },
+  "caption": {
+   "fr": "Quatre formes de collaboration entre agents : le modèle se choisit pour la forme des dépendances et la preuve disponible",
+   "en": "Four shapes of collaboration between agents: the model is chosen for the shape of the dependencies and the available evidence"
+  },
+  "mode": "replace_code",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch37-modeles.png",
+    "w": 1668,
+    "h": 530
+   },
+   "en": {
+    "path": "images/figures/en/ch37-modeles.png",
+    "w": 1668,
+    "h": 530
+   }
+  }
+ },
+ {
+  "id": "ch38-roles",
+  "anchor": {
+   "fr": [
+    "BodyText",
+    "L’agent peut exécuter un brouillon. Il n’autorise pas. Il ne répond pas."
+   ],
+   "en": [
+    "BodyText",
+    "The agent can execute a draft. It does not authorise. It does not answer."
+   ]
+  },
+  "caption": {
+   "fr": "Quatre rôles sur une même action : l’agent peut exécuter un brouillon, il n’autorise pas et ne répond pas",
+   "en": "Four roles on the same action: the agent can execute a draft, it does not authorise and does not answer"
+  },
+  "mode": "after",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch38-roles.png",
+    "w": 1668,
+    "h": 403
+   },
+   "en": {
+    "path": "images/figures/en/ch38-roles.png",
+    "w": 1668,
+    "h": 403
+   }
+  }
+ },
+ {
+  "id": "ch39-environnement",
+  "anchor": {
+   "fr": [
+    "BodyText",
+    "Ces composants ne sont pas tous des produits séparés"
+   ],
+   "en": [
+    "BodyText",
+    "These components are not all separate products"
+   ]
+  },
+  "caption": {
+   "fr": "L’environnement d’un run : ce qui entoure l’agent pour qu’il agisse dans un périmètre, avec un état et une escalade",
+   "en": "The environment of a run: what surrounds the agent so it acts within a perimeter, with a state and an escalation"
+  },
+  "mode": "after",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch39-environnement.png",
+    "w": 1668,
+    "h": 538
+   },
+   "en": {
+    "path": "images/figures/en/ch39-environnement.png",
+    "w": 1668,
+    "h": 538
+   }
+  }
+ },
+ {
+  "id": "ch39-autonomie-risque",
+  "anchor": {
+   "fr": [
+    "BodyText",
+    "La règle n’est pas « toujours demander une confirmation »"
+   ],
+   "en": [
+    "BodyText",
+    "The rule is not “always ask for a confirmation”"
+   ]
+  },
+  "caption": {
+   "fr": "L’autonomie suit le risque : plus l’action est irréversible ou externe, plus le degré de liberté baisse et le contrôle monte",
+   "en": "Autonomy follows risk: the more irreversible or external the action, the lower the freedom and the higher the control"
+  },
+  "mode": "after",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch39-autonomie-risque.png",
+    "w": 1668,
+    "h": 504
+   },
+   "en": {
+    "path": "images/figures/en/ch39-autonomie-risque.png",
+    "w": 1668,
+    "h": 504
+   }
+  }
+ },
+ {
+  "id": "ch40-rollbacks",
+  "anchor": {
+   "fr": [
+    "BodyText",
+    "Les deux sont nécessaires. Ni l’un ni l’autre n’est « plus noble »"
+   ],
+   "en": [
+    "BodyText",
+    "Both are necessary. Neither is “nobler”"
+   ]
+  },
+  "caption": {
+   "fr": "Deux rollbacks, deux objets : le revert du système ne prévient pas la cliente ; le message de correction passe avant",
+   "en": "Two rollbacks, two objects: reverting the system does not warn the client; the correction message comes first"
+  },
+  "mode": "after",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch40-rollbacks.png",
+    "w": 1668,
+    "h": 573
+   },
+   "en": {
+    "path": "images/figures/en/ch40-rollbacks.png",
+    "w": 1668,
+    "h": 573
+   }
+  }
+ },
+ {
+  "id": "ch41-un-objet",
+  "anchor": {
+   "fr": [
+    "BodyText",
+    "Un objet dans trois chats = pas d’objet"
+   ],
+   "en": [
+    "BodyText",
+    "An object in three chats = no object"
+   ]
+  },
+  "caption": {
+   "fr": "Un objet, un lieu, une revue humaine : le système de l’entreprise est un assemblage de fichiers déjà écrits dans ce livre",
+   "en": "One object, one place, one human review: the company system is an assembly of files already written in this book"
+  },
+  "mode": "after",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch41-un-objet.png",
+    "w": 1668,
+    "h": 552
+   },
+   "en": {
+    "path": "images/figures/en/ch41-un-objet.png",
+    "w": 1668,
+    "h": 546
+   }
+  }
+ },
+ {
+  "id": "ch42-complexite",
+  "anchor": {
+   "fr": [
+    "BodyText",
+    "Ce scénario est fictif, mais fréquent : chaque ajout paraît raisonnable pris seul"
+   ],
+   "en": [
+    "BodyText",
+    "This scenario is fictional, but frequent: each addition seems reasonable taken alone"
+   ]
+  },
+  "caption": {
+   "fr": "Le compteur qui monte sans améliorer le service : chaque ajout paraît raisonnable, le problème est dans la somme",
+   "en": "The counter that rises without improving the service: each addition seems reasonable, the problem is in the sum"
+  },
+  "mode": "after",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/ch42-complexite.png",
+    "w": 1668,
+    "h": 473
+   },
+   "en": {
+    "path": "images/figures/en/ch42-complexite.png",
+    "w": 1668,
+    "h": 473
+   }
+  }
+ },
+ {
+  "id": "annexeB-playbook",
+  "anchor": {
+   "fr": [
+    "CodeBlock",
+    "P[problème] --> C[capacité nécessaire]"
+   ],
+   "en": [
+    "CodeBlock",
+    "P[problem] --> C[necessary capability]"
+   ]
+  },
+  "caption": {
+   "fr": "Choisir un outil ou une méthode : du problème à l’adoption limitée, en passant par une preuve d’adéquation",
+   "en": "Choosing a tool or a method: from the problem to limited adoption, via evidence of fitness"
+  },
+  "mode": "replace_code",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/annexeB-playbook.png",
+    "w": 1668,
+    "h": 195
+   },
+   "en": {
+    "path": "images/figures/en/annexeB-playbook.png",
+    "w": 1668,
+    "h": 195
+   }
+  }
+ },
+ {
+  "id": "annexeC-arbre",
+  "anchor": {
+   "fr": [
+    "CodeBlock",
+    "R[Entrepreneur augmenté]"
+   ],
+   "en": [
+    "CodeBlock",
+    "R[Augmented entrepreneur]"
+   ]
+  },
+  "caption": {
+   "fr": "L’arbre du livre : cinq verbes, six parties",
+   "en": "The book’s tree: five verbs, six parts"
+  },
+  "mode": "replace_code",
+  "files": {
+   "fr": {
+    "path": "images/figures/fr/annexeC-arbre.png",
+    "w": 1668,
+    "h": 457
+   },
+   "en": {
+    "path": "images/figures/en/annexeC-arbre.png",
+    "w": 1668,
+    "h": 457
+   }
+  }
+ }
+]
